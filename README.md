@@ -1,6 +1,19 @@
 
+<div align="center">
+  <img src="powerbi.png" alt="powerbi">
+</div>
+
+Este repositório compila uma série de projetos didáticos realizados no curso "Business Intelligence e Data Science" da Data Science Academy, o qual possui ~70 horas de conteúdo, de nível intermediário. Este repositório irmão (adicionar hiperlink) contém uma estrutura semelhante, tratando do curso "Power BI Avançado para Análise de Dados com DAX". Em conjunto, ambos os repositórios compreendem um exercício didático, ao mesmo tempo em que permitem a criação de um portfolio onde a ferramenta é utilizada para a solução de problemas em diferentes cenários (marketing, logística, finanças, contabilidade, etc).
+
+As tarefas são construídas para:
+
+1. Introduzir o usuário às ferramentas de visualização do PowerBI;
+2. Familiarizar a manipulação de dados através de linguagem _DAX_ e _M_, utilizadas extensamente no Power Query Editor; e
+3. Explorar o uso de ferramentas externas como _Bravo_ e _DAX Studio_.
 
 
+---
+---
 
 <h1 align="center">Projeto 1: Análise de Dados de Marketing</h1>
 
@@ -146,8 +159,8 @@ Um projeto de análise de dados para demonstrar funcionalidades do PowerBI, base
 Este projeto foca em solucionar os problemas de um dashboard .pbix construído previamente por um analista de dados sem experiência.
 
 <div align="center">
-  <img src="media/ohno.png" alt="Page 1 Overview" width="62%">
-  <img src="media/bachecazzo.gif" alt="Page 2 Overview" width="33%">
+  <img src="projeto4_logistica/media/ohno.png" alt="Page 1 Overview" width="62%">
+  <img src="projeto4_logistica/media/bachecazzo.gif" alt="Page 2 Overview" width="33%">
 </div>
 
 ---
@@ -204,7 +217,7 @@ O Dashboard precisava mostrar os seguintes KPIs de Logística:
 
 Por fim, podemos aprimorar algumas visualizações. A tabela de "Total de Entregas de Produtos dos Top5 Vendedores" pode ser aprimorada com uma classificação (rating), uma das "medidas rápidas" implementadas no PowerBI, que gozam desta funcionalidade por configurarem expressões DAX mais complexas e (geralmente) verbosas, como visualizado abaixo
 
-![Page 1 Overview](media/DAX.png)
+![Page 1 Overview](projeto4_logistica/media/DAX.png)
 
 Podemos também aplicar filtros utilizando expressões DAX, o que é conveniente neste cenário para calcular, por exemplo, o número de entregas _*dentro do prazo*_, ou seja, aquelas que foram classificadas tanto como "Antecipadas" ou "No Prazo". A expressão utilizada para o calculo desta nova medida é:
 
@@ -215,7 +228,7 @@ Podemos também aplicar filtros utilizando expressões DAX, o que é conveniente
 Eis o resultado final:
 
 <div align="center">
-  <img src="media/page1.gif" alt="Page 1 Overview">
+  <img src="projeto4_logistica/media/page1.gif" alt="Page 1 Overview">
 </div>
 
 Todas as modificações e reparos resultam no dashboard final abaixo. Apesar do grande número de elementos, as diferentes informações conseguem ser transmitidas de forma concisa, simples e não-poluída. São implementados diversos novos recursos:
@@ -265,7 +278,7 @@ Estes são apenas alguns dos KPIs mais comuns da área de finanças, mas existem
 
 Os dados, provenientes em formato xlsx, sugerem imediatamente a necessidade de uma transformação inicial, para que os atributos (componentes) sejam organizados em colunas e os valores em si - balizados por uma data calendário - sejam dispostos em linhas tal qual o padrão de séries temporais.
 
-![Page 1 Overview](media/inspecao_inicial.png)
+![Page 1 Overview](projeto5_financas/media/inspecao_inicial.png)
 
 Essa transformação, espécie de _faux_ pivô, pode ser realizada diretamente no PowerBI com uma expressão DAX somada à função UnpivotOtherColumns:
 
@@ -280,7 +293,7 @@ Argumentos:
 4. "Valor": Isso se torna o nome da nova coluna que conterá os valores correspondentes às colunas desfazidas.
 
 <div align="center">
-  <img src="media/unpivot.png" alt="unpivot">
+  <img src="projeto5_financas/media/unpivot.png" alt="unpivot">
 </div>
 
 Agora sim, os dados estão prontos para serem trabalhados nas visualizações do dashboard.
@@ -303,7 +316,7 @@ MargemLucro = DIVIDE([Lucro], [TotalReceitas], 0)
  semelhante (porém definitivamente menos rebuscada) por debaixo do capô. É incluída nesta visualização o descritor "Principais Segmentos", o qual responde a pergunta postulada pela empresa. Este recurso, IMHO, é a verdadeira _pièce de résistance_ dentre as visualizações do PowerBI: ele une a narrativa inteligente à análise de determinada variável quantitativa, explicada por uma ou mais variáveis categóricas, utilizando demais artifícios como gráficos de rosca e/ou barras internamente. Veja abaixo:
 
 <div align="center">
-  <img src="media/segmentos.gif" alt="segmentos">
+  <img src="projeto5_financas/media/segmentos.gif" alt="segmentos">
 </div>
 
 ---
@@ -312,7 +325,7 @@ O dashboard final é exibido abaixo, reunindo os diversos KPI's construídos com
 maior graças a sua versatilidade.
 
 <div align="center">
-  <img src="media/final.gif" alt="segmentos">
+  <img src="projeto5_financas/media/final.gif" alt="segmentos">
 </div>
 
 ---
@@ -321,6 +334,6 @@ maior graças a sua versatilidade.
 
 <h1 align="center">Projeto 6: Análise de Dados de Contabilidade</h1>
 
-
+Em construção
 
 ![Abhinandan Trilokia](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
