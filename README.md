@@ -515,6 +515,40 @@ Esta ferramenta é importante para a gestão financeira de uma empresa, portanto
 capacidade de pagar suas obrigações e sua solvência a longo prazo. Ela também pode ser usado para avaliar a saúde financeira 
 de uma empresa e ajudar na tomada de decisões estratégicas.
 
+O Microsoft Excel, apesar de ainda ser a ferramenta usual na área de ciências contábeis, possui uma série de limitações referentes
+à manipulação e principalmente visualização dos dados. O Power BI é melhor equipado para lidar com estes tipos de dados, como
+será exemplificado abaixo.
+
 ## Construção
+
+Os dados presentes em Dataset.xslx são configurados em duas planilhas: plano de contas e dados contábeis. Ao ingerir os dados,
+o Power BI acusa uma ligação 1 para 1 entre as tabelas através da variável ID_Conta, o que é conceitualmente correto.
+
+<div align="center">
+  <img src="projeto6_contabilidade/media/modelo.png" alt="model1">
+</div>
+
+Uma inspeção prévia do plano de contas sugere que há uma hierarquia entre os diferentes níveis de conta. Por esse motivo é
+utilizada a visualização matricial, ao invés de uma tabela simples. A expansão da hierarquia torna explícita os diferentes níveis.
+
+<div align="center">
+  <img src="projeto6_contabilidade/media/tabela1.gif" alt="tab1">
+</div>
+
+Há uma miríade de opções para formatação de matrizes no Power BI. De particular importância, a configuração de "barra de dados"
+em "elementos da célula" fornece um auxílio visual conveniente para destacar a discrepância entre valores de diferentes categorias,
+bem como imediatamente determinar se os valores são positivos (verde) ou negativos (em vermelho).
+
+A navegação pela matriz é realizada pelos comandos no canto superior direito: drill down, drill up, retendo ou excluindo os
+diferentes ramos da hierarquia dependendo de qual opção é abilitada. É possível, com estes recursos, exibir em tempo real
+qualquer informação específica que seja requerida por um cliente, por exemplo.
+
+<div align="center">
+  <img src="projeto6_contabilidade/media/tabela2.gif" alt="tab2">
+</div>
+
+---
+---
+---
 
 ![Abhinandan Trilokia](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
