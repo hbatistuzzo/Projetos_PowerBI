@@ -3,7 +3,12 @@
   <img src="powerbi.png" alt="powerbi">
 </div>
 
-Este repositório compila uma série de projetos didáticos realizados no curso "Business Intelligence e Data Science" da Data Science Academy, o qual possui ~70 horas de conteúdo, de nível intermediário. Este repositório irmão (adicionar hiperlink) contém uma estrutura semelhante, tratando do curso "Power BI Avançado para Análise de Dados com DAX". Em conjunto, ambos os repositórios compreendem um exercício didático, ao mesmo tempo em que permitem a criação de um portfolio onde a ferramenta é utilizada para a solução de problemas em diferentes cenários (marketing, logística, finanças, contabilidade, etc).
+Este repositório compila uma série de projetos didáticos realizados no curso "Business Intelligence e Data Science" da Data 
+Science Academy, o qual possui ~70 horas de conteúdo, de nível intermediário, para demonstrar funcionalidades do PowerBI. Este repositório irmão (adicionar hiperlink) 
+contém uma estrutura semelhante, tratando do curso "Power BI Avançado para Análise de Dados com DAX". 
+
+Em conjunto, ambos os repositórios compreendem um exercício didático, 
+ao mesmo tempo em que permitem a criação de um portfolio onde a ferramenta é utilizada para a solução de problemas em diferentes cenários (marketing, logística, finanças, contabilidade, etc).
 
 As tarefas são construídas para:
 
@@ -17,8 +22,33 @@ As tarefas são construídas para:
 
 <h1 align="center">Projeto 1: Análise de Dados de Marketing</h1>
 
-Um projeto de análise de dados para demonstrar funcionalidades do PowerBI. Dados fictícios são utilizados para analisar a efetividade de campanhas de marketing na venda de produtos. Baseado no curso "Business Intelligence e Data Science" da Data Science Academy.
+## Contexto
 
+Existem muitos indicadores de Marketing diferentes que as empresas podem usar para medir o sucesso de suas estratégias e 
+campanhas. Alguns dos principais indicadores incluem:
+
+1. *Taxa de conversão*: A proporção de visitantes do site que realizam uma ação desejada, como comprar um produto ou preencher 
+um formulário de contato.
+
+2. *Taxa  de  retenção  do  cliente*: A proporção de clientes que compram de uma empresa novamente.
+
+3. *Custo por aquisição de cliente (CAC)*: O custo total de adquirir um novo cliente, incluindo despesas com publicidade e 
+marketing.
+
+4. *Retorno sobre investimento (ROI)*: O lucro ou prejuízo obtido em relação ao investimento feito em uma campanha de marketing.
+
+5. *Conscientização da marca*: A medida da familiaridade e reconhecimento da marca entre o público-alvo.
+
+6. *Engajamento*: A medida da interação dos usuários com conteúdo, campanhas e canais de marketing.
+
+7. *Net  Promoter  Score  (NPS)*: Uma  medida  da  lealdade  dos  clientes,  baseada  em  sua disposição para recomendar uma 
+empresa ou produto para outras pessoas.
+
+8. *Tráfego do website*: Número de visitas no website.
+
+Esses  indicadores  devem  ser  monitorados  regularmente  para  ajudar  as  empresas  a entender  o  sucesso  de  suas  estratégias  e  campanhas  de  marketing  e  fazer  ajustes  onde necessário.Além disso é importante compreender o perfil dos clientes, o comportamento de gastos e os padrõesde compra de acordo com diferentes métricas.
+
+## Construção do Dashboard
 O objetivo geral do projeto é gerar insights para uma equipe de marketing através de uma série de informações estruturadas no arquivo dados_marketing.csv:
 
 - O perfil de clientes de uma empresa fictícia (idade, escolaridade, nacionalidade, número de filhos, etc);
@@ -85,7 +115,24 @@ A quarta e última página do relatório foca na separação de vendas e gastos 
 
 <h1 align="center">Projeto 2: Análise de Dados Comerciais</h1>
 
-Um projeto de análise de dados para demonstrar funcionalidades do PowerBI, baseado no curso "Business Intelligence e Data Science" da Data Science Academy..
+## Contexto
+
+Os principais KPIs (Key Performance Indicators) da área comercial são indicadores que medem o desempenho e a eficiência 
+das atividades de vendas. Alguns dos KPIs mais comuns incluem:
+
+1. *Volume de vendas*: quantidade de produtos ou serviços vendidos;
+2. *Ticket médio*: valor médio das vendas por transação;
+3. *Taxa  de  conversão*:  proporção  de  visitantes  do  site  ou  contatos  que  se  tornam clientes;
+4. *Ciclo  de  vendas*: tempo médio que leva para fechar uma venda, desde o primeiro contato com o cliente até o fechamento;
+5. *Retenção  de  clientes*:  taxa  de  clientes  que  compram  novamente  após  a  primeira compra;
+6. *Lucratividade*: receita líquida obtida pela venda de produtos ou serviços, descontados os custos;
+7. *Produtividade da equipe de vendas*: quantidade de vendas realizadas por vendedor por período; e
+8. *Satisfação do cliente*: medida da satisfação dos clientes com a empresa, produtos e serviços oferecidos.
+
+Estes KPIs ajudam a identificar pontos fortes e fracos na estratégia de vendas da empresa, e permitem tomar decisões mais informadas para melhorar o desempenho da área comercial.
+
+## Construção do Projeto
+
 O arquivo Dados_Comerciais.xlsx contém uma lista de transações comerciais realizadas por uma empresa, descrevendo a venda de produtos separados por categoria, segmento comercial, loja, localização, vendedor, comissão, data da transação, valores e custos, etc.
 
 - Este dashboard inclui um índice dinâmico, cuja funcionalidade é exibidade abaixo:
@@ -129,16 +176,45 @@ Por fim, a visualização por mapa permite investigar informações de venda por
 
 <h1 align="center">Projeto 3: Análise de Dados de RH</h1>
 
-Um projeto de análise de dados para demonstrar funcionalidades do PowerBI, baseado no curso "Business Intelligence e Data Science" da Data Science Academy.
+## Contexto
+
+A área de Recursos Humanos (RH) tem como função principal gerenciar e administrar as atividades relacionadas ao pessoal 
+de uma empresa, a fim de promover o desenvolvimento e a satisfação dos funcionários e, consequentemente, contribuir para o 
+sucesso da organização. Neste contexto, alguns dos principais KPIs incluem:
+
+1. *Taxa  de  rotatividade*:  mede  a  frequência  com  que  os  funcionários  estão  deixando  a empresa,  
+o  que  pode  indicar  problemas  com  o  ambiente  de  trabalho,  remuneração  ou oportunidades de desenvolvimento;
+
+2. *Satisfação do funcionário*: mede o grau de satisfação dos funcionários com relação ao trabalho, remuneração, 
+ambiente de trabalho e oportunidades de desenvolvimento;
+
+3. *Tempo médio para preenchimento de vagas*: mede o tempo necessário para preencher uma vaga aberta, o que pode indicar 
+a eficiência do processo de recrutamento e seleção;
+
+4. *Custo  de  contratação  por  funcionário*:  mede  o  custo  total  de  contratar  um  novo funcionário, 
+incluindo gastos com anúncios de vagas, entrevistas, testes e treinamento;
+
+5. *Participação  em  treinamentos*:  mede  o  número  de  funcionários  que  participam  de programas de treinamento e 
+desenvolvimento, o que pode indicar o interesse dos funcionários em melhorar suas habilidades e desenvolver suas carreiras;
+
+6. *Avaliação de desempenho*: mede a avaliação do funcionário em um ciclo de trabalho, normalmente 6 meses ou 12 meses;
+
+7. *Nível de absenteísmo*: mede a frequência com que os funcionários faltam ao trabalho, o que pode indicar problemas com o 
+ambiente de trabalho ou saúde dos funcionários;
+
+8. *Nível  de  engajamento*:  escala  que  define  quão  engajados  os  funcionários estão, normalmente medida  com  
+base  no nível  de  absenteísmo, pontualidade,  avaliação  de desempenho, etc.
+
+## Construção do Projeto
+
 O arquivo DatasetRH.csv contém as características de funcionários fornecidos pelo setor RH de uma empresa: gênero, idade, salário, anos sem promoção, etc.
 
-## Foco do projeto
 O objetivo deste projeto é focar na manipulação dos dados com o editor do PowerQuery e o uso de expressões DAX. Novas colunas condicionais são criadas para auxiliar na produção de visualizações, bem como
 medidas de interesse (as quais ao final do projeto configuram uma nova tabela, "Medidas"). As atividades reforçam a vantagem de se manter uma série de medidas arquivadas, para uso quando necessário, ao invés
 da simples visualização instantânea no dashboard. A sintaxe DAX oferece uma série de funções para os mais diversos tipos de cálculo: AVERAGE, DIVIDE, CALCULATE, COUNTROWS, etc; a sintaxe de uso é similar a de
 outras bibliotecas de análise e tratamento de dados, como Pandas, embora a interface gráfica remeta ao Excel clássico.
 
-## Visualização única
+### Visualização única
 ![Page 1 Overview](projeto3_RH/media/page1.gif)
 
 Como não há necessidade de storytelling para as informações fornecidas neste contexto, opta-se por um único dashboard, com informações-chave dispostas em diferentes cartões. Poucos gráficos de baixa complexidade
@@ -153,8 +229,63 @@ os elementos, ou a paleta de cores utilizada. Um dashboard com as mesmas informa
 
 <h1 align="center">Projeto 4: Análise de Dados de Logística</h1>
 
+## Contexto
 
-Um projeto de análise de dados para demonstrar funcionalidades do PowerBI, baseado no curso "Business Intelligence e Data Science" da Data Science Academy.
+A área de logística tem a função de gerenciar o fluxo de produtos e informações desde o ponto de origem até o destino final, 
+de forma eficiente e econômica. Isso inclui a coordenação de  várias  atividades,  como  o  transporte,  armazenamento,  
+distribuição,  embalagem, gerenciamento de estoque e o gerenciamento da cadeia de suprimentos. 
+
+A logística é fundamental para a operação bem-sucedida de muitas empresas, pois pode afetar diretamente a satisfação do 
+cliente, a produtividade, a eficiência operacional e os custos. Ao gerenciar a cadeia de suprimentos de forma eficaz, 
+a área de logística pode garantir que  as  mercadorias  estejam  disponíveis  no  momento  certo,  no  lugar  certo  e  
+nas  condições adequadas, além de otimizar os recursos e minimizar os custos.
+
+Além disso, a área de logística pode ajudar a empresa a identificar oportunidades para melhorar sua operação, 
+reduzir desperdícios, aumentar a eficiência e reduzir o tempo de ciclo do pedido (do pedido até a entrega ao cliente ou 
+destino). Com a crescente complexidade dos negócios e a globalização da economia, a importância da logística tem aumentado 
+significativamente, tornando-se um fator crítico de sucesso para muitas empresas.
+
+Um exemplo de como a área de logística
+pode ser fundamental para a operação bem-sucedida de uma empresa é o caso de uma loja virtual de roupas que vende 
+para clientes em todo o país. Para garantir que seus clientes recebam seus pedidos no prazo e em perfeitas condições, 
+a empresa precisa gerenciar efetivamente o transporte, armazenamento e distribuição de seus produtos. 
+Isso inclui a coordenação com fornecedores, gerenciamento de estoque, embalagem, escolha de transportadoras, 
+rastreamento de pedidos e gerenciamento de devoluções.Se a empresa não gerenciar essas atividades de forma eficaz, 
+pode haver atrasos na entrega,  produtos danificados,  aumento  dos  custos  de  transporte  e  armazenamento  e 
+insatisfação do cliente. Além disso, a empresa pode enfrentar problemas de estoque excessivo ou insuficiente, 
+o que pode levar a perdas financeiras.
+
+Por outro lado, se a área de logística da empresa gerenciar essas atividades de forma eficaz, poderá garantir que os 
+produtos sejam entregues no prazo, em perfeitas condições e a um custo razoável. Isso pode levar a uma melhor satisfação 
+do cliente, redução de custos e aumento da receita.
+
+Existem vários indicadores-chave de desempenho (KPIs) que podem ser usados para medir a eficácia e a eficiência da área de 
+logística de uma empresa. Alguns dos principais KPIs incluem:
+
+1. *Tempo de ciclo*: o tempo necessário para atender um pedido, desde o momento em que é feito até o momento em que é 
+entregue ao cliente.
+
+2. *Taxa  de  entrega  no  prazo*:  a  porcentagem  de  pedidos  entregues  dentro  do  prazo acordado.
+
+3. *Custo  de  transporte*:  o  custo  médio  por  unidade  ou  por  pedido  para  transportar  os produtos.
+
+4. *Nível de estoque*: o número de dias ou semanas de suprimento de estoque disponível.
+
+5. *Taxa de devolução*: a porcentagem de pedidos devolvidos pelos clientes.
+
+6. *Índice de acurácia de estoque*: a precisão do estoque registrado em relação ao estoque real.
+
+7. *Taxa de utilização de armazenamento*: a porcentagem do espaço de armazenamento disponível que está sendo utilizado.
+
+8. *Nível  de  serviço  ao  cliente*:  a  satisfação  geral  do  cliente  com  o  serviço  de  logística, 
+incluindo tempo de entrega, qualidade do produto eatendimento ao cliente.
+
+9. *Taxa de ocorrência de avarias*: a porcentagem de produtos que sofrem danos durante o transporte ou armazenamento.
+
+10. *Índice  de  retorno  sobre  investimento  (ROI)*:  o  retorno  financeiro  gerado  pelos investimentos  em  logística,  
+como  sistemas  de  gerenciamento  de  armazéns  ou  software  de rastreamento de pedidos.
+
+## Construção do Projeto
 
 Este projeto foca em solucionar os problemas de um dashboard .pbix construído previamente por um analista de dados sem experiência.
 
@@ -165,7 +296,7 @@ Este projeto foca em solucionar os problemas de um dashboard .pbix construído p
 
 ---
 
-## Resolução
+### Resolução
 
 O Dashboard precisava mostrar os seguintes KPIs de Logística:
 1. Total de Entregas no Prazo Por Canal de Entrega
@@ -243,9 +374,6 @@ Todas as modificações e reparos resultam no dashboard final abaixo. Apesar do 
 ---
 
 <h1 align="center">Projeto 5: Análise de Dados Financeiros</h1>
-
-Um projeto de análise de dados para demonstrar funcionalidades do PowerBI, baseado no curso "Business Intelligence e Data Science" da Data Science Academy. O foco, desta vez, é a área de finanças.
-
 
 ## Contexto
 
@@ -332,6 +460,61 @@ maior graças a sua versatilidade.
 
 <h1 align="center">Projeto 6: Análise de Dados de Contabilidade</h1>
 
-Em construção
+## Contexto
+As Ciências Contábeis são um campo de estudo que envolve o registro, classificação e análise de transações financeiras de uma
+ empresa ou organização. Essas transações incluem compras, vendas, pagamentos, recebimentos, investimentos, entre outros. 
+ Os  profissionais  de  contabilidade  utilizam  técnicas  e  ferramentas  específicas  para registrar  e  organizar  
+ informações  financeiras,  como  balanços,  demonstrativos  de  resultados, fluxo de caixa e relatórios contábeis. 
+ Essas informações são usadas para ajudar os gestores a tomar decisões financeiras importantes e também para cumprir 
+ obrigações legais e fiscais.
+
+ As Ciências Contábeis são essenciais para qualquer empresa ou organização que busque gerenciar suas finanças de forma eficaz
+  e tomar decisões financeiras fundamentadas. Além disso, os profissionais de contabilidade desempenham um papel importante 
+  na auditoria de empresas e na assessoria a indivíduos e empresas em questões fiscais e financeiras.
+
+Existem vários relatórios importantes em Ciências Contábeis que fornecem informações financeiras vitais para as empresas e 
+outras organizações. Destacam-se:
+
+1. Balanço Patrimonial (BP): o foco deste projeto. É um relatório que apresenta a posição financeira da empresa em um determinado momento. 
+Ele mostra os ativos (bens e direitos) e passivos (obrigações) da empresa, bem como o patrimônio líquido;
+
+2. Demonstração de Resultadodo Exercício (DRE): É um relatório que apresenta o resultado das  operações  da  empresa  durante  
+um  período  de  tempo.  Ele  mostra  as  receitas,  despesas  e lucro líquido (ou prejuízo) da empresa;
+
+3. Demonstração do Fluxo de Caixa (DFC): É um relatório que apresenta o fluxo de caixa da empresa durante um período de tempo.
+ Ele mostra as entradas e saídas de caixa da empresa e o saldo de caixa no final do período;
+ 
+4. Demonstrativo  de  Lucros  ou  Prejuízos  Acumulados  (DLPA):  Esse  importante  relatório contábil  indica  as  
+mudanças  e  aplicações  do  patrimônio  líquido  de  uma  empresa  durante  o período  considerado,  
+permitindo  identificar  a  origem  do  recurso  e  averiguar  sua  gestão.  Na prática, o DLPA deriva dos resultados 
+obtidos no DRE e no balanço patrimonial, é obrigatório às sociedades limitadas, evidencia lucros e prejuízos e ajuda a 
+avaliar se o investimento é adequado e rentável;
+
+5. Relatório  de  Análise  de  Desempenho:  É  um  relatório  que  apresenta  uma  análise detalhada dos resultados 
+financeiros da empresa, comparando com períodos anteriores e com outras empresas do mesmo setor;
+
+6. Notas Explicativas: São informações adicionais que acompanham os relatórios financeiros e fornecem detalhes sobre as 
+políticas contábeis da empresa, suas operações e outras informações relevantes. Essas notas ajudam a interpretar os 
+relatórios financeiros e a entender melhor a situação financeira da empresa.
+
+## O Balanço Patrimonial
+
+Um balanço patrimonial é um relatório financeiro que apresenta a posição financeira de uma  empresa  em  um  determinado  
+momento,  geralmente  no  final  do  ano  fiscal  ou  em  um intervalo de tempo específico. É um dos principais relatórios em Ciências Contábeis.Obalanço patrimonial apresenta a situação dos ativos, passivos e 
+patrimônio líquido da empresa.
+
+Os ativos são bens e direitos que a empresa possui, como dinheiro em caixa, contas a receber, estoques, imóveis, veículos, 
+entre outros. Os passivos são as obrigações da empresa, como empréstimos, contas a pagar, impostos, entre outros.
+Já o patrimônio líquido representa os recursos próprios da empresa, ou seja, a diferença entre ativos e passivos.
+
+O balanço patrimonial é dividido em duas partes principais: uma que apresenta os ativos, e outra que apresenta os passivos e 
+o patrimônio líquido. O objetivo é mostrar que a soma dos ativos é igual à soma dos passivos mais o patrimônio líquido, 
+ou seja, que o patrimônio líquido representa a diferença entre os recursos que a empresa possui e as obrigações que ela tem.
+
+Esta ferramenta é importante para a gestão financeira de uma empresa, portanto, uma vez que permite avaliar sua 
+capacidade de pagar suas obrigações e sua solvência a longo prazo. Ela também pode ser usado para avaliar a saúde financeira 
+de uma empresa e ajudar na tomada de decisões estratégicas.
+
+## Construção
 
 ![Abhinandan Trilokia](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
