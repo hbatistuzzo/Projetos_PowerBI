@@ -244,8 +244,6 @@ Todas as modificações e reparos resultam no dashboard final abaixo. Apesar do 
 
 <h1 align="center">Projeto 5: Análise de Dados Financeiros</h1>
 
-# PowerBI_Projeto5_Fintech
-
 Um projeto de análise de dados para demonstrar funcionalidades do PowerBI, baseado no curso "Business Intelligence e Data Science" da Data Science Academy. O foco, desta vez, é a área de finanças.
 
 
