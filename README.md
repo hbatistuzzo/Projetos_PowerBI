@@ -461,6 +461,7 @@ maior graças a sua versatilidade.
 <h1 align="center">Projeto 6: Análise de Dados de Contabilidade</h1>
 
 ## Contexto
+
 As Ciências Contábeis são um campo de estudo que envolve o registro, classificação e análise de transações financeiras de uma
  empresa ou organização. Essas transações incluem compras, vendas, pagamentos, recebimentos, investimentos, entre outros. 
  Os  profissionais  de  contabilidade  utilizam  técnicas  e  ferramentas  específicas  para registrar  e  organizar  
@@ -550,5 +551,167 @@ qualquer informação específica que seja requerida por um cliente, por exemplo
 ---
 ---
 ---
+
+<h1 align="center">Projeto 6: Análise de Dados de Contabilidade</h1>
+
+## Contexto
+
+O  mercado  de  ações  é  um  sistema  no  qual  as  empresas  vendem  frações  de  sua propriedade  (chamadas  ações)  para investidores,  que  por  sua  vez  se  tornam  proprietários parciais da empresa. Quando as empresas têm lucro, 
+os acionistas também recebem uma parte desses lucros na forma de dividendos. Além disso, o valor das ações pode subir ou 
+descer com base em vários fatores, como desempenho financeiro da empresa, mudanças na economia ou na indústria em que a 
+empresa opera, bem como decisões políticas e regulatórias.
+  
+Os investidores compram e vendem ações no mercado de ações, geralmente usando uma corretora ou plataforma de negociação 
+on-line para fazer as transações. O mercado de ações é frequentemente  visto  como  um  indicador  da  saúde  econômica 
+geral  de  um  país,  e  é frequentemente  usado  como  uma  forma  de  investimento  para  indivíduos  e  instituições 
+financeiras em todo o mundo.
+
+Neste projeto trabalhamos  com  dados  reais  extraídos  do  portal  da  Nasdaq. A NASDAQ  (National  Association  of  
+Securities  Dealers  Automated  Quotations)  é  uma  bolsa  de valores eletrônica americana, fundada em 1971. É a segunda 
+maior bolsa de valores do mundo em termos de capitalização de mercado, atrás apenas da Bolsa de Valores de Nova York (NYSE). 
+A NASDAQ é conhecida por ser a bolsa de valores onde são negociadas principalmente as ações de empresas de tecnologia e 
+inovação, como Apple, Microsoft, Amazon, IBM, Facebook e Alphabet (a holding da Google). Além disso, a NASDAQ também negocia 
+ações de empresas de diversos outros setores, como saúde, finanças, energia, entre outros.
+
+A  NASDAQ  é  uma  bolsa  de valores  eletrônica,  o  que  significa  que  as  negociaçõessão realizadas  através  de  
+sistemas  de  computador  e  redes  de  telecomunicações. Ela é pioneira no uso de tecnologia para a realização de 
+negociações, como por exemplo, a utilização de telas de computador para exibir cotações em tempo real e a implementação do 
+sistema de negociação eletrônico. Além disso, a NASDAQ também oferece serviços de listagem de empresas e serviços de 
+compensação e liquidação de negociações realizadas em sua bolsa. É amplamente seguida pelos investidores e analistas 
+financeiros devido à sua grande base de empresas tecnológicas e inovadoras.
+
+Os dados aqui utilizados podem ser extraídos gratuitamente da Nasdaq acessando o link https://www.nasdaq.com/market-activity/stocks
+
+Os  dados  da  NASDAQ  incluem  várias  colunas,  cada  uma  fornecendo  informações específicas sobre o preço e o volume 
+de negociação das ações negociadas no mercado. Aqui está uma descrição do que cada uma dessas colunas significa:
+
+1. "Date"  (Data): fornece  a  data  em  que  a  ação  foi  negociada  na NASDAQ;
+
+2. "Close/Last"  (Fechamento/Último  Preço): fornece  o  preço  de fechamento  da  ação  na  NASDAQ  
+no  final  do  dia  de  negociação.  O  preço  de fechamento é o último preço pelo qual a ação foi negociada naquele dia;
+
+3. "Volume": indica o número total de ações negociadas durante o dia. Isso pode incluir várias transações feitas 
+por um ou mais investidores;
+
+4. "Open" (Preço de Abertura): indica o preço de abertura da ação na NASDAQ no início do dia de negociação. O preço de 
+abertura é o primeiro preço pelo qual a ação foi negociada naquele dia; e
+
+5. "High" (Preço Máximo) e "Low" (Preço Mínimo): indicam o preço máximo e mínimo que a ação foi negociada naquele dia. 
+O preço máximo é o preço mais alto pelo qual a ação foi negociada durante o dia, enquanto o preço mínimo é o preço mais 
+baixo pelo qual a ação foi negociada.
+
+## Objetivos
+
+A cotação de ações é de fato uma série temporal. O Power BI oferece uma funcionalidade para manipular esse tipo de dado, c
+hamado de Time Intelligence (que é um recurso de manipulação de datas de forma simplificada). Também utilizamos novamente o 
+conveniente recurso de Narrativa Inteligente para que o Power BI ajude a explicar o comportamento dos dados de forma 
+automática. O Dashboard deverá responder a estas perguntas de negócio abaixo:
+
+1. Qual o total de volume negociado de ações ao longo do tempo para as 5 empresas que  estão  sendo  analisadas?  
+Permita  que  essa  análise  seja  feita  para  uma  única empresa ou combinação de empresas.
+
+2. Qual  o  valor  médio  de  abertura  (Open),  mais  alto  (High),  mais  baixo  (Low)  e  de fechamento (Close) das
+ ações de todas as empresas para todos os meses do período de  dados  analisado  (1  ano  em  nosso  exemplo)?  
+ Mostre  no  formato  de  tabela  e permita  que  essa  análise  seja  feita  para  uma  única  empresa  ou  
+ combinação  de empresas.
+ 
+3. Qual  a  variação  da  média  do  valor  de fechamento  (close)  das  ações  de  todas  as empresas  ao  longo  do 
+ tempo,  mês  a  mês?  Permita  que  essa  análise  seja  feita  para uma única empresa ou combinação de empresas.
+ 
+4. Use a Narrativa Inteligente para explicar as principais características e tendências nos dados.
+
+## Dados
+
+Embora a Data Science Academy forneca um conjunto de dados pre-existentes, eu optei por seguir outro caminho: a biblioteca de python yfinance permite obter dados OHLC dos principais mercados financeiros diretamente pela API da Yahoo Finances. O Power BI exibe uma funcionalidade para obter dados através de scripts em linguagens de programação R ou Python.
+
+Eis o script:
+
+```
+import yfinance as yf
+import pandas as pd
+
+papeis = ['AMER3.SA', 'B3SA3.SA', 'BBDC4.SA', 'HAPV3.SA', 'PETR4.SA', 'RAIZ4.SA', 'PETR3.SA',
+          'VALE3.SA', 'IRBR3.SA', 'MGLU3.SA']
+
+cotacoes_ibov = yf.download(papeis, start='2021-08-04', period="1d")
+
+# Melt the DataFrame and reset the index
+df = pd.melt(cotacoes_ibov, ignore_index=False)
+df["Date"] = df.index.date
+
+df.reset_index(drop=True, inplace=True)
+
+# Pivot the DataFrame to transform 'Price' values into columns
+df_pivoted = df.pivot(index=["Date", "Ticker"], columns="Price", values="value").reset_index()
+df_pivoted.iloc[:, 2:] = df_pivoted.iloc[:, 2:].applymap(lambda x: f"{x:.2f}".replace('.', ','))
+
+# Rename the columns for clarity (optional)
+df_pivoted.columns.name = None  # Remove the multi-index column name
+```
+
+O mecanismo de importação é ilustrado abaixo:
+
+<div align="center">
+  <img src="projeto7_mercado_financeiro/media/ibov.gif" alt="ibov1">
+</div>
+
+Os papéis foram escolhidos por sua relevância no IBOVESPA atual (análise realizada previamente):
+1. 'AMER3.SA', 'B3SA3.SA', 'BBDC4.SA', 'HAPV3.SA', 'PETR4.SA', 'RAIZ4.SA' possuem os maiores valores de Volume dos ultimos 3 anos.
+2. 'PETR3.SA', 'VALE3.SA' são a contrapartida "soft" da Petrobras e da Vale.
+3. 'IRBR3.SA' e 'MGLU3.SA' possuem os maiores valores de Close neste período.
+
+Os dados são rapidamente trabalhados com a biblioteca pandas para realizar o "melt" - passando os dados originais de um formato _wide_ para narrow - e o pivô da coluna Price para separar os campos OHLC, assim como nos dados do projeto original.
+
+## Construção do Dashboard
+
+As questões 1 e 2 são rapidamente resolvidas com um gráfico de barras e uma visualização de tabela. Já a questão 3 necessita de um
+cálculo não-trivial: a variação da média do valor de fechamento das ações de todas as empresas ao longo do tempo, mês a mês. Mais uma
+vez, o Power BI oferece funcionalidades específicas para a resolução de problemas específicos; a seção de "medidas rápidas" exibe a
+categoria "Inteligência de Dados Temporais", da qual a média móvel é o exemplo clássico. A configuração do cálculo gera uma expressão
+DAX inicialmente intimidante, mas que remete à sintaxe Python após uma inspeção mais cautelosa. A concatenação das funções envolvidas
+retorna uma nova variável, _PREV MONTH_, que guarda a variação percentual do volume mês a mês.
+
+```
+Média de Close MoM% = 
+IF(
+	ISFILTERED('df_pivoted'[Date]),
+	ERROR("Medidas rápidas de inteligência de tempo somente podem ser agrupadas ou filtradas pela hierarquia de data fornecida pelo Power BI ou pela coluna de data primária."),
+	VAR __PREV_MONTH =
+		CALCULATE(
+			AVERAGE('df_pivoted'[Close]),
+			DATEADD('df_pivoted'[Date].[Date], -1, MONTH)
+		)
+	RETURN
+		DIVIDE(AVERAGE('df_pivoted'[Close]) - __PREV_MONTH, __PREV_MONTH)
+)
+```
+
+A interatividade é particularmente útil no caso da análise da varição da média de fechamento:
+
+<div align="center">
+  <img src="projeto7_mercado_financeiro/media/mom.gif" alt="mom">
+</div>
+
+2 segmentadores são extremamente úteis aqui: um para filtrar os papéis (_tickers_) e outro para delimitar a data. Uma vez que a série
+temporal inicia em Agosto de 2021 e termina em Novembro de 2024, a análise de variação mensal (por exemplo) exibirá discrepâncias para
+os primeiros e últimos meses do ano. Podemos optar, por exemplo, por averiguar a série "completa" de Jan/2022 a Jan/2024 no caso específico desta análise.
+
+A narrativa inteligente, embora inclusa aqui para fins didáticos, sofre um pouco devido à complexidade da sintaxe da língua portuguesa.
+Existe, porém, a possibilidade de integração com o _Copilot_ para a manutenção desta ferramenta, sobrescrevendo a funcionalidade nativa. Estes recursos deverão ser continuamente aprimorados no futuro recente com o desenvolvimento de LLM's mais poderosos.
+
+O resultado final é exibido abaixo:
+
+<div align="center">
+  <img src="projeto7_mercado_financeiro/media/mf.gif" alt="mf">
+</div>
+
+Para os papéis considerados, a linha de tendência do total de volume negociado denota a relativa estabilidade das ações
+de grandes empresas nacionais pós-pandemia e.g. Petrobras, Vale, Magazine Luiza. O segmentador anual demonstra que houve uma tendência
+ligeiramente positiva em 2022, seguida de uma ligeiramente negativa em 2023 e 2024. Filtrando apenas os papeis da petrobras (PETR4 e o _soft_ PETR3), fica explícita a altíssima correlação positiva entre os ativos no gráfico da variação média de fechamento, como esperado. Outras correlações menos óbvias (mas ainda assim lógicas) também podem ser observadas, como o comportamento semelhante entre
+ações da Vale e Petrobras, ambas fortemente influenciadas pelas tendências governamentais. Este comportamento já não é evidente entre
+estas empresas e a Magazine Luiza, cujos ativos são influenciados por outros fatores econômicos.
+
+Há uma variedade enorme de análises possíveis com dados OHLC no contexto do mercado financeiro. Por enquanto, o arroz com feijão pode
+ser sucitamente resumido neste dashboard de página única com algumas visualizações chave e uma rápida manipulação dos dados.
 
 ![Abhinandan Trilokia](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
