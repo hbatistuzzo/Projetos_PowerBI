@@ -552,7 +552,7 @@ qualquer informação específica que seja requerida por um cliente, por exemplo
 ---
 ---
 
-<h1 align="center">Projeto 6: Análise de Dados de Contabilidade</h1>
+<h1 align="center">Projeto 6: Análise de Dados do Mercado de Ações</h1>
 
 ## Contexto
 
