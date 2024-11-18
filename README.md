@@ -462,16 +462,9 @@ maior graças a sua versatilidade.
 
 ## Contexto
 
-As Ciências Contábeis são um campo de estudo que envolve o registro, classificação e análise de transações financeiras de uma
- empresa ou organização. Essas transações incluem compras, vendas, pagamentos, recebimentos, investimentos, entre outros. 
- Os  profissionais  de  contabilidade  utilizam  técnicas  e  ferramentas  específicas  para registrar  e  organizar  
- informações  financeiras,  como  balanços,  demonstrativos  de  resultados, fluxo de caixa e relatórios contábeis. 
- Essas informações são usadas para ajudar os gestores a tomar decisões financeiras importantes e também para cumprir 
- obrigações legais e fiscais.
+As Ciências Contábeis são um campo de estudo que envolve o registro, classificação e análise de transações financeiras de uma empresa ou organização. Essas transações incluem compras, vendas, pagamentos, recebimentos, investimentos, entre outros. Os  profissionais  de  contabilidade  utilizam  técnicas  e  ferramentas  específicas  para registrar  e  organizar informações  financeiras,  como  balanços,  demonstrativos  de  resultados, fluxo de caixa e relatórios contábeis. Essas informações são usadas para ajudar os gestores a tomar decisões financeiras importantes e também para cumprir obrigações legais e fiscais.
 
- As Ciências Contábeis são essenciais para qualquer empresa ou organização que busque gerenciar suas finanças de forma eficaz
-  e tomar decisões financeiras fundamentadas. Além disso, os profissionais de contabilidade desempenham um papel importante 
-  na auditoria de empresas e na assessoria a indivíduos e empresas em questões fiscais e financeiras.
+As Ciências Contábeis são essenciais para qualquer empresa ou organização que busque gerenciar suas finanças de forma eficaz e tomar decisões financeiras fundamentadas. Além disso, os profissionais de contabilidade desempenham um papel importante na auditoria de empresas e na assessoria a indivíduos e empresas em questões fiscais e financeiras.
 
 Existem vários relatórios importantes em Ciências Contábeis que fornecem informações financeiras vitais para as empresas e 
 outras organizações. Destacam-se:
@@ -479,70 +472,50 @@ outras organizações. Destacam-se:
 1. Balanço Patrimonial (BP): o foco deste projeto. É um relatório que apresenta a posição financeira da empresa em um determinado momento. 
 Ele mostra os ativos (bens e direitos) e passivos (obrigações) da empresa, bem como o patrimônio líquido;
 
-2. Demonstração de Resultadodo Exercício (DRE): É um relatório que apresenta o resultado das  operações  da  empresa  durante  
-um  período  de  tempo.  Ele  mostra  as  receitas,  despesas  e lucro líquido (ou prejuízo) da empresa;
+2. Demonstração de Resultadodo Exercício (DRE): É um relatório que apresenta o resultado das  operações  da  empresa  durante um  período  de  tempo.  Ele  mostra  as  receitas,  despesas  e lucro líquido (ou prejuízo) da empresa;
 
-3. Demonstração do Fluxo de Caixa (DFC): É um relatório que apresenta o fluxo de caixa da empresa durante um período de tempo.
- Ele mostra as entradas e saídas de caixa da empresa e o saldo de caixa no final do período;
+3. Demonstração do Fluxo de Caixa (DFC): É um relatório que apresenta o fluxo de caixa da empresa durante um período de tempo. Ele mostra as entradas e saídas de caixa da empresa e o saldo de caixa no final do período;
  
-4. Demonstrativo  de  Lucros  ou  Prejuízos  Acumulados  (DLPA):  Esse  importante  relatório contábil  indica  as  
-mudanças  e  aplicações  do  patrimônio  líquido  de  uma  empresa  durante  o período  considerado,  
-permitindo  identificar  a  origem  do  recurso  e  averiguar  sua  gestão.  Na prática, o DLPA deriva dos resultados 
-obtidos no DRE e no balanço patrimonial, é obrigatório às sociedades limitadas, evidencia lucros e prejuízos e ajuda a 
-avaliar se o investimento é adequado e rentável;
+4. Demonstrativo  de  Lucros  ou  Prejuízos  Acumulados  (DLPA):  Esse  importante  relatório contábil  indica  as mudanças  e  aplicações  do  patrimônio  líquido  de  uma  empresa  durante  o período  considerado, permitindo  identificar  a  origem  do  recurso  e  averiguar  sua  gestão.  Na prática, o DLPA deriva dos resultados obtidos no DRE e no balanço patrimonial, é obrigatório às sociedades limitadas, evidencia lucros e prejuízos e ajuda a avaliar se o investimento é adequado e rentável;
 
-5. Relatório  de  Análise  de  Desempenho:  É  um  relatório  que  apresenta  uma  análise detalhada dos resultados 
-financeiros da empresa, comparando com períodos anteriores e com outras empresas do mesmo setor;
+5. Relatório  de  Análise  de  Desempenho:  É  um  relatório  que  apresenta  uma  análise detalhada dos resultados financeiros da empresa, comparando com períodos anteriores e com outras empresas do mesmo setor;
 
-6. Notas Explicativas: São informações adicionais que acompanham os relatórios financeiros e fornecem detalhes sobre as 
-políticas contábeis da empresa, suas operações e outras informações relevantes. Essas notas ajudam a interpretar os 
-relatórios financeiros e a entender melhor a situação financeira da empresa.
+6. Notas Explicativas: São informações adicionais que acompanham os relatórios financeiros e fornecem detalhes sobre as políticas contábeis da empresa, suas operações e outras informações relevantes. Essas notas ajudam a interpretar os relatórios financeiros e a entender melhor a situação financeira da empresa.
 
 ## O Balanço Patrimonial
 
-Um balanço patrimonial é um relatório financeiro que apresenta a posição financeira de uma  empresa  em  um  determinado  
-momento,  geralmente  no  final  do  ano  fiscal  ou  em  um intervalo de tempo específico. É um dos principais relatórios em Ciências Contábeis.Obalanço patrimonial apresenta a situação dos ativos, passivos e 
-patrimônio líquido da empresa.
+Um balanço patrimonial é um relatório financeiro que apresenta a posição financeira de uma  empresa  em  um  determinado momento, geralmente  no  final  do  ano  fiscal  ou  em  um intervalo de tempo específico. É um dos principais relatórios em Ciências Contábeis.O balanço patrimonial apresenta a situação dos ativos, passivos e patrimônio líquido da empresa.
 
-Os ativos são bens e direitos que a empresa possui, como dinheiro em caixa, contas a receber, estoques, imóveis, veículos, 
-entre outros. Os passivos são as obrigações da empresa, como empréstimos, contas a pagar, impostos, entre outros.
-Já o patrimônio líquido representa os recursos próprios da empresa, ou seja, a diferença entre ativos e passivos.
+Os ativos são bens e direitos que a empresa possui, como dinheiro em caixa, contas a receber, estoques, imóveis, veículos, entre outros. Os passivos são as obrigações da empresa, como empréstimos, contas a pagar, impostos, entre outros. Já o patrimônio líquido representa os recursos próprios da empresa, ou seja, a diferença entre ativos e passivos.
 
-O balanço patrimonial é dividido em duas partes principais: uma que apresenta os ativos, e outra que apresenta os passivos e 
-o patrimônio líquido. O objetivo é mostrar que a soma dos ativos é igual à soma dos passivos mais o patrimônio líquido, 
-ou seja, que o patrimônio líquido representa a diferença entre os recursos que a empresa possui e as obrigações que ela tem.
+O balanço patrimonial é dividido em duas partes principais: uma que apresenta os ativos, e outra que apresenta os passivos e o patrimônio líquido. O objetivo é mostrar que a soma dos ativos é igual à soma dos passivos mais o patrimônio líquido, ou seja, que o patrimônio líquido representa a diferença entre os recursos que a empresa possui e as obrigações que ela tem.
 
-Esta ferramenta é importante para a gestão financeira de uma empresa, portanto, uma vez que permite avaliar sua 
-capacidade de pagar suas obrigações e sua solvência a longo prazo. Ela também pode ser usado para avaliar a saúde financeira 
-de uma empresa e ajudar na tomada de decisões estratégicas.
+Esta ferramenta é importante para a gestão financeira de uma empresa, portanto, uma vez que permite avaliar sua capacidade de pagar suas obrigações e sua solvência a longo prazo. Ela também pode ser usado para avaliar a saúde financeira de uma empresa e ajudar na tomada de decisões estratégicas.
 
 O Microsoft Excel, apesar de ainda ser a ferramenta usual na área de ciências contábeis, possui uma série de limitações referentes
-à manipulação e principalmente visualização dos dados. O Power BI é melhor equipado para lidar com estes tipos de dados, como
-será exemplificado abaixo.
+à manipulação e principalmente visualização dos dados. O Power BI é melhor equipado para lidar com estes tipos de dados, como será exemplificado abaixo.
 
 ## Construção
 
-Os dados presentes em Dataset.xslx são configurados em duas planilhas: plano de contas e dados contábeis. Ao ingerir os dados,
-o Power BI acusa uma ligação 1 para 1 entre as tabelas através da variável ID_Conta, o que é conceitualmente correto.
+Os dados presentes em Dataset.xslx são configurados em duas planilhas: plano de contas e dados contábeis. Ao ingerir os dados, o Power BI acusa uma ligação 1 para 1 entre as tabelas através da variável ID_Conta, o que é conceitualmente correto.
 
 <div align="center">
   <img src="projeto6_contabilidade/media/modelo.png" alt="model1">
 </div>
 
-Uma inspeção prévia do plano de contas sugere que há uma hierarquia entre os diferentes níveis de conta. Por esse motivo é
-utilizada a visualização matricial, ao invés de uma tabela simples. A expansão da hierarquia torna explícita os diferentes níveis.
+
+Uma inspeção prévia do plano de contas sugere que há uma hierarquia entre os diferentes níveis de conta. Por esse motivo é utilizada a visualização matricial, ao invés de uma tabela simples. A expansão da hierarquia torna explícita os diferentes níveis.
+
 
 <div align="center">
   <img src="projeto6_contabilidade/media/tabela1.gif" alt="tab1">
 </div>
 
-Há uma miríade de opções para formatação de matrizes no Power BI. De particular importância, a configuração de "barra de dados"
-em "elementos da célula" fornece um auxílio visual conveniente para destacar a discrepância entre valores de diferentes categorias,
-bem como imediatamente determinar se os valores são positivos (verde) ou negativos (em vermelho).
 
-A navegação pela matriz é realizada pelos comandos no canto superior direito: drill down, drill up, retendo ou excluindo os
-diferentes ramos da hierarquia dependendo de qual opção é abilitada. É possível, com estes recursos, exibir em tempo real
-qualquer informação específica que seja requerida por um cliente, por exemplo.
+Há uma miríade de opções para formatação de matrizes no Power BI. De particular importância, a configuração de "barra de dados" em "elementos da célula" fornece um auxílio visual conveniente para destacar a discrepância entre valores de diferentes categorias, bem como imediatamente determinar se os valores são positivos (verde) ou negativos (em vermelho).
+
+A navegação pela matriz é realizada pelos comandos no canto superior direito: drill down, drill up, retendo ou excluindo os diferentes ramos da hierarquia dependendo de qual opção é abilitada. É possível, com estes recursos, exibir em tempo real qualquer informação específica que seja requerida por um cliente, por exemplo.
+
 
 <div align="center">
   <img src="projeto6_contabilidade/media/tabela2.gif" alt="tab2">
@@ -556,34 +529,17 @@ qualquer informação específica que seja requerida por um cliente, por exemplo
 
 ## Contexto
 
-O  mercado  de  ações  é  um  sistema  no  qual  as  empresas  vendem  frações  de  sua propriedade  (chamadas  ações)  para investidores,  que  por  sua  vez  se  tornam  proprietários parciais da empresa. Quando as empresas têm lucro, 
-os acionistas também recebem uma parte desses lucros na forma de dividendos. Além disso, o valor das ações pode subir ou 
-descer com base em vários fatores, como desempenho financeiro da empresa, mudanças na economia ou na indústria em que a 
-empresa opera, bem como decisões políticas e regulatórias.
-  
-Os investidores compram e vendem ações no mercado de ações, geralmente usando uma corretora ou plataforma de negociação 
-on-line para fazer as transações. O mercado de ações é frequentemente  visto  como  um  indicador  da  saúde  econômica 
-geral  de  um  país,  e  é frequentemente  usado  como  uma  forma  de  investimento  para  indivíduos  e  instituições 
-financeiras em todo o mundo.
+O  mercado  de  ações  é  um  sistema  no  qual  as  empresas  vendem  frações  de  sua propriedade  (chamadas  ações)  para investidores,  que  por  sua  vez  se  tornam  proprietários parciais da empresa. Quando as empresas têm lucro,  os acionistas também recebem uma parte desses lucros na forma de dividendos. Além disso, o valor das ações pode subir ou  descer com base em vários fatores, como desempenho financeiro da empresa, mudanças na economia ou na indústria em que a  empresa opera, be  como decisões políticas e regulatórias. 
+ 
+Os investidores compram e vendem ações no mercado de ações, geralmente usando uma corretora ou plataforma de negociação on-line para fazer as transações. O mercado de ações é frequentemente  visto  como  um  indicador  da  saúde  econômica geral  de  um  país,  e  é frequentemente  usado  como  uma  forma  de  investimento  para  indivíduos  e  instituições financeiras em todo o mundo.
 
-Neste projeto trabalhamos  com  dados  reais  extraídos  do  portal  da  Nasdaq. A NASDAQ  (National  Association  of  
-Securities  Dealers  Automated  Quotations)  é  uma  bolsa  de valores eletrônica americana, fundada em 1971. É a segunda 
-maior bolsa de valores do mundo em termos de capitalização de mercado, atrás apenas da Bolsa de Valores de Nova York (NYSE). 
-A NASDAQ é conhecida por ser a bolsa de valores onde são negociadas principalmente as ações de empresas de tecnologia e 
-inovação, como Apple, Microsoft, Amazon, IBM, Facebook e Alphabet (a holding da Google). Além disso, a NASDAQ também negocia 
-ações de empresas de diversos outros setores, como saúde, finanças, energia, entre outros.
+Neste projeto trabalhamos  com  dados  reais  extraídos  do  portal  da  Nasdaq. A NASDAQ  (National  Association  of Securities  Dealers  Automated  Quotations)  é  uma  bolsa  de valores eletrônica americana, fundada em 1971. É a segunda maior bolsa de valores do mundo em termos de capitalização de mercado, atrás apenas da Bolsa de Valores de Nova York (NYSE). A NASDAQ é conhecida por ser a bolsa de valores onde são negociadas principalmente as ações de empresas de tecnologia e inovação, como Apple, Microsoft, Amazon, IBM, Facebook e Alphabet (a holding da Google). Além disso, a NASDAQ também negocia ações de empresas de diversos outros setores, como saúde, finanças, energia, entre outros.
 
-A  NASDAQ  é  uma  bolsa  de valores  eletrônica,  o  que  significa  que  as  negociaçõessão realizadas  através  de  
-sistemas  de  computador  e  redes  de  telecomunicações. Ela é pioneira no uso de tecnologia para a realização de 
-negociações, como por exemplo, a utilização de telas de computador para exibir cotações em tempo real e a implementação do 
-sistema de negociação eletrônico. Além disso, a NASDAQ também oferece serviços de listagem de empresas e serviços de 
-compensação e liquidação de negociações realizadas em sua bolsa. É amplamente seguida pelos investidores e analistas 
-financeiros devido à sua grande base de empresas tecnológicas e inovadoras.
+A  NASDAQ  é  uma  bolsa  de valores  eletrônica,  o  que  significa  que  as  negociaçõessão realizadas  através  de sistemas  de  computador  e  redes  de  telecomunicações. Ela é pioneira no uso de tecnologia para a realização de negociações, como por exemplo, a utilização de telas de computador para exibir cotações em tempo real e a implementação do sistema de negociação eletrônico. Além disso, a NASDAQ também oferece serviços de listagem de empresas e serviços de compensação e liquidação de negociações realizadas em sua bolsa. É amplamente seguida pelos investidores e analistas financeiros devido à sua grande base de empresas tecnológicas e inovadoras.
 
 Os dados aqui utilizados podem ser extraídos gratuitamente da Nasdaq acessando o link https://www.nasdaq.com/market-activity/stocks
 
-Os  dados  da  NASDAQ  incluem  várias  colunas,  cada  uma  fornecendo  informações específicas sobre o preço e o volume 
-de negociação das ações negociadas no mercado. Aqui está uma descrição do que cada uma dessas colunas significa:
+Os  dados  da  NASDAQ  incluem  várias  colunas,  cada  uma  fornecendo  informações específicas sobre o preço e o volume de negociação das ações negociadas no mercado. Aqui está uma descrição do que cada uma dessas colunas significa:
 
 1. "Date"  (Data): fornece  a  data  em  que  a  ação  foi  negociada  na NASDAQ;
 
@@ -602,21 +558,13 @@ baixo pelo qual a ação foi negociada.
 
 ## Objetivos
 
-A cotação de ações é de fato uma série temporal. O Power BI oferece uma funcionalidade para manipular esse tipo de dado, c
-hamado de Time Intelligence (que é um recurso de manipulação de datas de forma simplificada). Também utilizamos novamente o 
-conveniente recurso de Narrativa Inteligente para que o Power BI ajude a explicar o comportamento dos dados de forma 
-automática. O Dashboard deverá responder a estas perguntas de negócio abaixo:
+A cotação de ações é de fato uma série temporal. O Power BI oferece uma funcionalidade para manipular esse tipo de dado, chamado de Time Intelligence (que é um recurso de manipulação de datas de forma simplificada). Também utilizamos novamente o conveniente recurso de Narrativa Inteligente para que o Power BI ajude a explicar o comportamento dos dados de forma automática. O Dashboard deverá responder a estas perguntas de negócio abaixo:
 
-1. Qual o total de volume negociado de ações ao longo do tempo para as 5 empresas que  estão  sendo  analisadas?  
-Permita  que  essa  análise  seja  feita  para  uma  única empresa ou combinação de empresas.
+1. Qual o total de volume negociado de ações ao longo do tempo para as 5 empresas que  estão  sendo  analisadas? Permita  que  essa  análise  seja  feita  para  uma  única empresa ou combinação de empresas.
 
-2. Qual  o  valor  médio  de  abertura  (Open),  mais  alto  (High),  mais  baixo  (Low)  e  de fechamento (Close) das
- ações de todas as empresas para todos os meses do período de  dados  analisado  (1  ano  em  nosso  exemplo)?  
- Mostre  no  formato  de  tabela  e permita  que  essa  análise  seja  feita  para  uma  única  empresa  ou  
- combinação  de empresas.
+2. Qual  o  valor  médio  de  abertura  (Open),  mais  alto  (High),  mais  baixo  (Low)  e  de fechamento (Close) das ações de todas as empresas para todos os meses do período de  dados  analisado  (1  ano  em  nosso  exemplo)?  Mostre  no  formato  de  tabela  e permita  que  essa  análise  seja  feita  para  uma  única  empresa  ou  combinação  de empresas.
  
-3. Qual  a  variação  da  média  do  valor  de fechamento  (close)  das  ações  de  todas  as empresas  ao  longo  do 
- tempo,  mês  a  mês?  Permita  que  essa  análise  seja  feita  para uma única empresa ou combinação de empresas.
+3. Qual  a  variação  da  média  do  valor  de fechamento  (close)  das  ações  de  todas  as empresas  ao  longo  do tempo,  mês  a  mês?  Permita  que  essa  análise  seja  feita  para uma única empresa ou combinação de empresas.
  
 4. Use a Narrativa Inteligente para explicar as principais características e tendências nos dados.
 
@@ -651,9 +599,11 @@ df_pivoted.columns.name = None  # Remove the multi-index column name
 
 O mecanismo de importação é ilustrado abaixo:
 
+
 <div align="center">
   <img src="projeto7_mercado_financeiro/media/ibov.gif" alt="ibov1">
 </div>
+
 
 Os papéis foram escolhidos por sua relevância no IBOVESPA atual (análise realizada previamente):
 1. 'AMER3.SA', 'B3SA3.SA', 'BBDC4.SA', 'HAPV3.SA', 'PETR4.SA', 'RAIZ4.SA' possuem os maiores valores de Volume dos ultimos 3 anos.
@@ -667,9 +617,9 @@ Os dados são rapidamente trabalhados com a biblioteca pandas para realizar o "m
 As questões 1 e 2 são rapidamente resolvidas com um gráfico de barras e uma visualização de tabela. Já a questão 3 necessita de um
 cálculo não-trivial: a variação da média do valor de fechamento das ações de todas as empresas ao longo do tempo, mês a mês. Mais uma
 vez, o Power BI oferece funcionalidades específicas para a resolução de problemas específicos; a seção de "medidas rápidas" exibe a
-categoria "Inteligência de Dados Temporais", da qual a média móvel é o exemplo clássico. A configuração do cálculo gera uma expressão
-DAX inicialmente intimidante, mas que remete à sintaxe Python após uma inspeção mais cautelosa. A concatenação das funções envolvidas
-retorna uma nova variável, _PREV MONTH_, que guarda a variação percentual do volume mês a mês.
+categoria "Inteligência de Dados Temporais", da qual a média móvel é o exemplo clássico.
+
+A configuração do cálculo gera uma expressão DAX inicialmente intimidante, mas que remete à sintaxe Python após uma inspeção mais cautelosa. A concatenação das funções envolvidas retorna uma nova variável, _PREV MONTH_, que guarda a variação percentual do volume mês a mês.
 
 ```
 Média de Close MoM% = 
@@ -686,15 +636,14 @@ IF(
 )
 ```
 
-A interatividade é particularmente útil no caso da análise da varição da média de fechamento:
+A interatividade é particularmente útil no caso da análise da variação da média de fechamento:
 
 <div align="center">
   <img src="projeto7_mercado_financeiro/media/mom.gif" alt="mom">
 </div>
 
-2 segmentadores são extremamente úteis aqui: um para filtrar os papéis (_tickers_) e outro para delimitar a data. Uma vez que a série
-temporal inicia em Agosto de 2021 e termina em Novembro de 2024, a análise de variação mensal (por exemplo) exibirá discrepâncias para
-os primeiros e últimos meses do ano. Podemos optar, por exemplo, por averiguar a série "completa" de Jan/2022 a Jan/2024 no caso específico desta análise.
+
+2 segmentadores são extremamente úteis aqui: um para filtrar os papéis (_tickers_) e outro para delimitar a data. Uma vez que a série temporal inicia em Agosto de 2021 e termina em Novembro de 2024, a análise de variação mensal (por exemplo) exibirá discrepâncias para os primeiros e últimos meses do ano. Podemos optar, por exemplo, por averiguar a série "completa" de Jan/2022 a Jan/2024 no caso específico desta análise.
 
 A narrativa inteligente, embora inclusa aqui para fins didáticos, sofre um pouco devido à complexidade da sintaxe da língua portuguesa.
 Existe, porém, a possibilidade de integração com o _Copilot_ para a manutenção desta ferramenta, sobrescrevendo a funcionalidade nativa. Estes recursos deverão ser continuamente aprimorados no futuro recente com o desenvolvimento de LLM's mais poderosos.
@@ -705,11 +654,8 @@ O resultado final é exibido abaixo:
   <img src="projeto7_mercado_financeiro/media/mf.gif" alt="mf">
 </div>
 
-Para os papéis considerados, a linha de tendência do total de volume negociado denota a relativa estabilidade das ações
-de grandes empresas nacionais pós-pandemia e.g. Petrobras, Vale, Magazine Luiza. O segmentador anual demonstra que houve uma tendência
-ligeiramente positiva em 2022, seguida de uma ligeiramente negativa em 2023 e 2024. Filtrando apenas os papeis da petrobras (PETR4 e o _soft_ PETR3), fica explícita a altíssima correlação positiva entre os ativos no gráfico da variação média de fechamento, como esperado. Outras correlações menos óbvias (mas ainda assim lógicas) também podem ser observadas, como o comportamento semelhante entre
-ações da Vale e Petrobras, ambas fortemente influenciadas pelas tendências governamentais. Este comportamento já não é evidente entre
-estas empresas e a Magazine Luiza, cujos ativos são influenciados por outros fatores econômicos.
+
+Para os papéis considerados, a linha de tendência do total de volume negociado denota a relativa estabilidade das ações de grandes empresas nacionais pós-pandemia e.g. Petrobras, Vale, Magazine Luiza. O segmentador anual demonstra que houve uma tendência ligeiramente positiva em 2022, seguida de uma ligeiramente negativa em 2023 e 2024. Filtrando apenas os papeis da petrobras (PETR4 e o_soft_ PETR3), fica explícita a altíssima correlação positiva entre os ativos no gráfico da variação média de fechamento, comoesperado. Outras correlações menos óbvias (mas ainda assim lógicas) também podem ser observadas, como o comportamento semelhante entreações da Vale e Petrobras, ambas fortemente influenciadas pelas tendências governamentais. Este comportamento já não é evidente entreestas empresas e a Magazine Luiza, cujos ativos são influenciados por outros fatores econômicos.
 
 Há uma variedade enorme de análises possíveis com dados OHLC no contexto do mercado financeiro. Por enquanto, o arroz com feijão pode
 ser sucitamente resumido neste dashboard de página única com algumas visualizações chave e uma rápida manipulação dos dados.
