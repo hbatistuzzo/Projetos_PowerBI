@@ -1,23 +1,27 @@
 
 <div align="center">
-  <img src="powerbi.png" alt="powerbi">
+  <img src="powerbi.png" alt="powerbi" width="66%>
+  <img src="dsa.png" alt="Page 2 Overview" width="33%">
 </div>
 
-Este repositório compila uma série de projetos didáticos realizados no curso "Business Intelligence e Data Science" da Data 
-Science Academy, o qual possui ~70 horas de conteúdo, de nível intermediário, para demonstrar funcionalidades do PowerBI. Este repositório irmão (adicionar hiperlink) 
-contém uma estrutura semelhante, tratando do curso "Power BI Avançado para Análise de Dados com DAX". 
+Este repositório compila uma série de projetos didáticos realizados durante a primeira metade do curso **"Microsoft Power BI Business Intelligence e Data Science"** da [Data Science Academy](https://www.datascienceacademy.com.br/) (72 horas de conteúdo, nível intermediário); esta primeira metade é focada em funcionalidades do Power BI, como:
+1. Ferramentas de visualização;
+2. Linguagem M para processos de ETL;
+3. Linguagem DAX para criação de medidas, estatísticas e parâmetros auxiliares;
+4. Manipulação de dados com Power Query;
+5. Funcionalidades nativas e externas e.g. _Bravo_ e _DAX Studio_.
 
-Em conjunto, ambos os repositórios compreendem um exercício didático, 
-ao mesmo tempo em que permitem a criação de um portfolio onde a ferramenta é utilizada para a solução de problemas em diferentes cenários (marketing, logística, finanças, contabilidade, etc).
+A segunda metade do curso é contemplada [neste repositório irmão](https://github.com/hbatistuzzo/Projetos_PowerBI2), o qual trata da interação do Microsoft Power BI com outras aplicações; em particular:
+1. A integração do Power BI com Bancos de Dados;
+2. O uso de SQL Analytics;
+3. A aplicação de técnicas de _Machine Learning_ para segmentação e detecção de anomalias;
+4. O uso de Inteligência Artificial para análise de séries temporais no Power BI; e
+5. Um estudo de caso. A oportunidade é fortuita para o aprendizado de algumas aplicações acessórias como ODBC e SQLite.
 
-As tarefas são construídas para:
+Há ainda [um terceiro repositório irmão](https://github.com/hbatistuzzo/Projetos_PowerBI3), de estrutura semelhante, o qual organiza o conteúdo do curso "Power BI Avançado para Análise de Dados com DAX" (70 horas, nível avançado). 
 
-1. Introduzir o usuário às ferramentas de visualização do PowerBI;
-2. Familiarizar a manipulação de dados através de linguagem _DAX_ e _M_, utilizadas extensamente no Power Query Editor; e
-3. Explorar o uso de ferramentas externas como _Bravo_ e _DAX Studio_.
+Em conjunto, estes 3 repositórios compreendem um exercício didático, ao mesmo tempo em que permitem a criação de um portfolio onde a ferramenta é utilizada para a solução de problemas em diferentes cenários (marketing, logística, finanças, contabilidade, etc).
 
-
----
 ---
 
 <h1 align="center">Projeto 1: Análise de Dados de Marketing</h1>
