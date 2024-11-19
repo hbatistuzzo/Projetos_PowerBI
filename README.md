@@ -1,7 +1,8 @@
 
+
 <div align="center">
-  <img src="powerbi.png" alt="powerbi" width="66%>
-  <img src="dsa.png" alt="Page 2 Overview" width="33%">
+  <img src="powerbi.png" alt="asdasdasdas" width="70%">
+  <img src="dsa.png" alt="a1" width="20%">
 </div>
 
 Este repositório compila uma série de projetos didáticos realizados durante a primeira metade do curso **"Microsoft Power BI Business Intelligence e Data Science"** da [Data Science Academy](https://www.datascienceacademy.com.br/) (72 horas de conteúdo, nível intermediário); esta primeira metade é focada em funcionalidades do Power BI, como:
