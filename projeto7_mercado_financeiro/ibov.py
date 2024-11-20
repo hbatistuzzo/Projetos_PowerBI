@@ -24,7 +24,7 @@ import pandas as pd
 papeis = ['AMER3.SA', 'B3SA3.SA', 'BBDC4.SA', 'HAPV3.SA', 'PETR4.SA', 'RAIZ4.SA', 'PETR3.SA',
           'VALE3.SA', 'IRBR3.SA', 'MGLU3.SA']
 
-cotacoes_ibov = yf.download(papeis, start='2022-01-01', period="1d")
+cotacoes_ibov = yf.download(papeis, start='2021-08-04', period="1d")
 
 # Melt the DataFrame and reset the index
 df = pd.melt(cotacoes_ibov, ignore_index=False)
