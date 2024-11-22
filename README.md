@@ -20,7 +20,7 @@ A segunda metade do curso é contemplada [neste repositório irmão](https://git
 4. O uso de Inteligência Artificial para análise de séries temporais no Power BI; e
 5. Um estudo de caso. A oportunidade é fortuita para o aprendizado de algumas aplicações acessórias como ODBC e SQLite.
 
-Há ainda [um terceiro repositório irmão](https://github.com/hbatistuzzo/Projetos_PowerBI3), de estrutura semelhante, o qual organiza o conteúdo do curso "Power BI Avançado para Análise de Dados com DAX" (70 horas, nível avançado). 
+Há ainda [um terceiro repositório irmão](https://github.com/hbatistuzzo/advanced_PowerBI_with_DAX), de estrutura semelhante, o qual organiza o conteúdo do curso "Power BI Avançado para Análise de Dados com DAX" (70 horas, nível avançado). 
 
 Em conjunto, estes 3 repositórios compreendem um exercício didático, ao mesmo tempo em que permitem a criação de um portfolio onde a ferramenta é utilizada para a solução de problemas em diferentes cenários (marketing, logística, finanças, contabilidade, etc).
 
