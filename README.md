@@ -12,7 +12,8 @@ Este repositório compila uma série de projetos didáticos realizados durante a
 4. Manipulação de dados com Power Query;
 5. Funcionalidades nativas e externas e.g. _Bravo_ e _DAX Studio_.
 
-A segunda metade do curso é contemplada [neste repositório irmão](https://github.com/hbatistuzzo/Projetos_PowerBI2), o qual trata da interação do Microsoft Power BI com outras aplicações; em particular:
+
+A segunda metade do curso é contemplada [neste repositório irmão]([https://github.com/hbatistuzzo/Projetos_PowerBI_parte2), o qual trata da interação do Microsoft Power BI com outras aplicações; em particular:
 1. A integração do Power BI com Bancos de Dados;
 2. O uso de SQL Analytics;
 3. A aplicação de técnicas de _Machine Learning_ para segmentação e detecção de anomalias;
