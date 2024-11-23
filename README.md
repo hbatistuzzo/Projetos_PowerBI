@@ -1,9 +1,12 @@
-
-
 <div align="center">
   <img src="powerbi.png" alt="asdasdasdas" width="70%">
   <img src="dsa.png" alt="a1" width="20%">
 </div>
+
+![GitHub top language](https://img.shields.io/github/languages/top/hbatistuzzo/Projetos_PowerBI_parte1)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/hbatistuzzo/Projetos_PowerBI_parte1)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hbatistuzzo/Projetos_PowerBI_parte1)
+![GitHub last commit](https://img.shields.io/github/last-commit/hbatistuzzo/Projetos_PowerBI_parte1)
 
 Este repositório compila uma série de projetos didáticos realizados durante a primeira metade do curso **"Microsoft Power BI Business Intelligence e Data Science"** da [Data Science Academy](https://www.datascienceacademy.com.br/) (72 horas de conteúdo, nível intermediário); esta primeira metade é focada em funcionalidades do Power BI, como:
 1. Ferramentas de visualização;
@@ -28,18 +31,18 @@ Em conjunto, estes 3 repositórios compreendem um exercício didático, ao mesmo
 
 <h1 align="center">Projeto 1: Análise de Dados de Marketing</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/7548fe13-3b4f-4c28-b25c-419bf9f7ccbd/696ea71078306cadd58c?experience=power-bi)
 
-Existem muitos indicadores de Marketing diferentes que as empresas podem usar para medir o sucesso de suas estratégias e 
-campanhas. Alguns dos principais indicadores incluem:
+<details>
+<summary>Contexto</summary>
 
-1. *Taxa de conversão*: A proporção de visitantes do site que realizam uma ação desejada, como comprar um produto ou preencher 
-um formulário de contato.
+Existem muitos indicadores de Marketing diferentes que as empresas podem usar para medir o sucesso de suas estratégias e campanhas. Alguns dos principais indicadores incluem:
+
+1. *Taxa de conversão*: A proporção de visitantes do site que realizam uma ação desejada, como comprar um produto ou preencher um formulário de contato.
 
 2. *Taxa  de  retenção  do  cliente*: A proporção de clientes que compram de uma empresa novamente.
 
-3. *Custo por aquisição de cliente (CAC)*: O custo total de adquirir um novo cliente, incluindo despesas com publicidade e 
-marketing.
+3. *Custo por aquisição de cliente (CAC)*: O custo total de adquirir um novo cliente, incluindo despesas com publicidade e marketing.
 
 4. *Retorno sobre investimento (ROI)*: O lucro ou prejuízo obtido em relação ao investimento feito em uma campanha de marketing.
 
@@ -53,6 +56,8 @@ empresa ou produto para outras pessoas.
 8. *Tráfego do website*: Número de visitas no website.
 
 Esses  indicadores  devem  ser  monitorados  regularmente  para  ajudar  as  empresas  a entender  o  sucesso  de  suas  estratégias  e  campanhas  de  marketing  e  fazer  ajustes  onde necessário.Além disso é importante compreender o perfil dos clientes, o comportamento de gastos e os padrõesde compra de acordo com diferentes métricas.
+
+</details>
 
 ## Construção do Dashboard
 O objetivo geral do projeto é gerar insights para uma equipe de marketing através de uma série de informações estruturadas no arquivo dados_marketing.csv:
@@ -121,10 +126,12 @@ A quarta e última página do relatório foca na separação de vendas e gastos 
 
 <h1 align="center">Projeto 2: Análise de Dados Comerciais</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/63750961-66c0-4a63-8ba8-f18362d86e70/c20d8fd6d156d5a5042b?experience=power-bi)
 
-Os principais KPIs (Key Performance Indicators) da área comercial são indicadores que medem o desempenho e a eficiência 
-das atividades de vendas. Alguns dos KPIs mais comuns incluem:
+<details>
+<summary>Contexto</summary>
+
+Os principais KPIs (Key Performance Indicators) da área comercial são indicadores que medem o desempenho e a eficiência das atividades de vendas. Alguns dos KPIs mais comuns incluem:
 
 1. *Volume de vendas*: quantidade de produtos ou serviços vendidos;
 2. *Ticket médio*: valor médio das vendas por transação;
@@ -136,6 +143,8 @@ das atividades de vendas. Alguns dos KPIs mais comuns incluem:
 8. *Satisfação do cliente*: medida da satisfação dos clientes com a empresa, produtos e serviços oferecidos.
 
 Estes KPIs ajudam a identificar pontos fortes e fracos na estratégia de vendas da empresa, e permitem tomar decisões mais informadas para melhorar o desempenho da área comercial.
+
+</details>
 
 ## Construção do Projeto
 
@@ -164,10 +173,8 @@ O arquivo Dados_Comerciais.xlsx contém uma lista de transações comerciais rea
 ## Faixas de Vendas
 ![Sales Analysis](projeto2_dados_comerciais/media/page4.gif)
 
-- A visualização de Gráfico de Faixas exibe a queda (ou aumento) nas vendas de uma determinada categoria para outra em um determinado ponto de venda. Dentre outras caracaterísticas, esse gráfico possui a vantagem de detalhar instantaneamente se determinadas lojas performaram melhor em quais categorias. Essa relação nem sempre é monotônica (e.g. o ponto de venda SP8821
-performa razoavelmente bem na venda de Eletrodomésticos, em terceiro lugar dentre as lojas, mas falha grosseiramente na venda de celulares).
-- É relevante observar que estas mesmas informações poderiam ser dispostas de forma tabular com a visualização matricial. O gráfico de faixas, porém, provê um auxílio visual ao destacar as diferentes proporções no volume de vendas entre as categorias de produtos. Mais do que isso, a funcionalidade do "Controle Deslizante" permite ao usuário customizar a visualização,
-caso seja necessário, por exemplo, investigar as variações para lojas cujo volume de vendas é muito menor comparada àquelas que dominam o mercado.
+- A visualização de Gráfico de Faixas exibe a queda (ou aumento) nas vendas de uma determinada categoria para outra em um determinado ponto de venda. Dentre outras caracaterísticas, esse gráfico possui a vantagem de detalhar instantaneamente se determinadas lojas performaram melhor em quais categorias. Essa relação nem sempre é monotônica (e.g. o ponto de venda SP8821 performa razoavelmente bem na venda de Eletrodomésticos, em terceiro lugar dentre as lojas, mas falha grosseiramente na venda de celulares).
+- É relevante observar que estas mesmas informações poderiam ser dispostas de forma tabular com a visualização matricial. O gráfico de faixas, porém, provê um auxílio visual ao destacar as diferentes proporções no volume de vendas entre as categorias de produtos. Mais do que isso, a funcionalidade do "Controle Deslizante" permite ao usuário customizar a visualização,caso seja necessário, por exemplo, investigar as variações para lojas cujo volume de vendas é muito menor comparada àquelas que dominam o mercado.
 
 ---
 
@@ -182,50 +189,41 @@ Por fim, a visualização por mapa permite investigar informações de venda por
 
 <h1 align="center">Projeto 3: Análise de Dados de RH</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/a74ae509-efd2-432b-8d4d-149af4a77f22/f04bd35605564bf39cd5?experience=power-bi)
 
-A área de Recursos Humanos (RH) tem como função principal gerenciar e administrar as atividades relacionadas ao pessoal 
-de uma empresa, a fim de promover o desenvolvimento e a satisfação dos funcionários e, consequentemente, contribuir para o 
-sucesso da organização. Neste contexto, alguns dos principais KPIs incluem:
+<details>
+<summary>Contexto</summary>
 
-1. *Taxa  de  rotatividade*:  mede  a  frequência  com  que  os  funcionários  estão  deixando  a empresa,  
-o  que  pode  indicar  problemas  com  o  ambiente  de  trabalho,  remuneração  ou oportunidades de desenvolvimento;
+A área de Recursos Humanos (RH) tem como função principal gerenciar e administrar as atividades relacionadas ao pessoal de uma empresa, a fim de promover o desenvolvimento e a satisfação dos funcionários e, consequentemente, contribuir para o sucesso da organização. Neste contexto, alguns dos principais KPIs incluem:
 
-2. *Satisfação do funcionário*: mede o grau de satisfação dos funcionários com relação ao trabalho, remuneração, 
-ambiente de trabalho e oportunidades de desenvolvimento;
+1. *Taxa  de  rotatividade*:  mede  a  frequência  com  que  os  funcionários  estão  deixando  a empresa, o  que  pode  indicar  problemas  com  o  ambiente  de  trabalho,  remuneração  ou oportunidades de desenvolvimento;
 
-3. *Tempo médio para preenchimento de vagas*: mede o tempo necessário para preencher uma vaga aberta, o que pode indicar 
-a eficiência do processo de recrutamento e seleção;
+2. *Satisfação do funcionário*: mede o grau de satisfação dos funcionários com relação ao trabalho, remuneração, ambiente de trabalho e oportunidades de desenvolvimento;
 
-4. *Custo  de  contratação  por  funcionário*:  mede  o  custo  total  de  contratar  um  novo funcionário, 
-incluindo gastos com anúncios de vagas, entrevistas, testes e treinamento;
+3. *Tempo médio para preenchimento de vagas*: mede o tempo necessário para preencher uma vaga aberta, o que pode indicar a eficiência do processo de recrutamento e seleção;
 
-5. *Participação  em  treinamentos*:  mede  o  número  de  funcionários  que  participam  de programas de treinamento e 
-desenvolvimento, o que pode indicar o interesse dos funcionários em melhorar suas habilidades e desenvolver suas carreiras;
+4. *Custo  de  contratação  por  funcionário*:  mede  o  custo  total  de  contratar  um  novo funcionário, incluindo gastos com anúncios de vagas, entrevistas, testes e treinamento;
+
+5. *Participação  em  treinamentos*:  mede  o  número  de  funcionários  que  participam  de programas de treinamento e desenvolvimento, o que pode indicar o interesse dos funcionários em melhorar suas habilidades e desenvolver suas carreiras;
 
 6. *Avaliação de desempenho*: mede a avaliação do funcionário em um ciclo de trabalho, normalmente 6 meses ou 12 meses;
 
-7. *Nível de absenteísmo*: mede a frequência com que os funcionários faltam ao trabalho, o que pode indicar problemas com o 
-ambiente de trabalho ou saúde dos funcionários;
+7. *Nível de absenteísmo*: mede a frequência com que os funcionários faltam ao trabalho, o que pode indicar problemas com o ambiente de trabalho ou saúde dos funcionários;
 
-8. *Nível  de  engajamento*:  escala  que  define  quão  engajados  os  funcionários estão, normalmente medida  com  
-base  no nível  de  absenteísmo, pontualidade,  avaliação  de desempenho, etc.
+8. *Nível  de  engajamento*:  escala  que  define  quão  engajados  os  funcionários estão, normalmente medida com base  no nível de absenteísmo, pontualidade, avaliação de desempenho, etc.
+
+</details>
 
 ## Construção do Projeto
 
 O arquivo DatasetRH.csv contém as características de funcionários fornecidos pelo setor RH de uma empresa: gênero, idade, salário, anos sem promoção, etc.
 
-O objetivo deste projeto é focar na manipulação dos dados com o editor do PowerQuery e o uso de expressões DAX. Novas colunas condicionais são criadas para auxiliar na produção de visualizações, bem como
-medidas de interesse (as quais ao final do projeto configuram uma nova tabela, "Medidas"). As atividades reforçam a vantagem de se manter uma série de medidas arquivadas, para uso quando necessário, ao invés
-da simples visualização instantânea no dashboard. A sintaxe DAX oferece uma série de funções para os mais diversos tipos de cálculo: AVERAGE, DIVIDE, CALCULATE, COUNTROWS, etc; a sintaxe de uso é similar a de
-outras bibliotecas de análise e tratamento de dados, como Pandas, embora a interface gráfica remeta ao Excel clássico.
+O objetivo deste projeto é focar na manipulação dos dados com o editor do PowerQuery e o uso de expressões DAX. Novas colunas condicionais são criadas para auxiliar na produção de visualizações, bem como medidas de interesse (as quais ao final do projeto configuram uma nova tabela, "Medidas"). As atividades reforçam a vantagem de se manter uma série de medidas arquivadas, para uso quando necessário, ao invés da simples visualização instantânea no dashboard. A sintaxe DAX oferece uma série de funções para os mais diversos tipos de cálculo: AVERAGE, DIVIDE, CALCULATE, COUNTROWS, etc; a sintaxe de uso é similar a de outras bibliotecas de análise e tratamento de dados, como Pandas, embora a interface gráfica remeta ao Excel clássico.
 
 ### Visualização única
 ![Page 1 Overview](projeto3_RH/media/page1.gif)
 
-Como não há necessidade de storytelling para as informações fornecidas neste contexto, opta-se por um único dashboard, com informações-chave dispostas em diferentes cartões. Poucos gráficos de baixa complexidade
-podem coexistir nesse ambiente único sem poluir muito a visualização. Destaca-se também a versatilidade da formatação visual no PowerBI: com alguns poucos cliques pode-se alterar raoidamente a disposição entre
-os elementos, ou a paleta de cores utilizada. Um dashboard com as mesmas informações e formatação similar é exibido abaixo:
+Como não há necessidade de storytelling para as informações fornecidas neste contexto, opta-se por um único dashboard, com informações-chave dispostas em diferentes cartões. Poucos gráficos de baixa complexidade podem coexistir nesse ambiente único sem poluir muito a visualização. Destaca-se também a versatilidade da formatação visual no PowerBI: com alguns poucos cliques pode-se alterar rapidamente a disposição entre os elementos, ou a paleta de cores utilizada. Um dashboard com as mesmas informações e formatação similar é exibido abaixo:
 
 ![Page 2 Overview](projeto3_RH/media/MP3.png)
 
@@ -235,41 +233,29 @@ os elementos, ou a paleta de cores utilizada. Um dashboard com as mesmas informa
 
 <h1 align="center">Projeto 4: Análise de Dados de Logística</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/f963b56e-cd75-4036-a859-52f88926d6b5/c7dea9e2ac138de38600?experience=power-bi)
 
-A área de logística tem a função de gerenciar o fluxo de produtos e informações desde o ponto de origem até o destino final, 
-de forma eficiente e econômica. Isso inclui a coordenação de  várias  atividades,  como  o  transporte,  armazenamento,  
-distribuição,  embalagem, gerenciamento de estoque e o gerenciamento da cadeia de suprimentos. 
+<details>
+<summary>Contexto</summary>
 
-A logística é fundamental para a operação bem-sucedida de muitas empresas, pois pode afetar diretamente a satisfação do 
-cliente, a produtividade, a eficiência operacional e os custos. Ao gerenciar a cadeia de suprimentos de forma eficaz, 
-a área de logística pode garantir que  as  mercadorias  estejam  disponíveis  no  momento  certo,  no  lugar  certo  e  
-nas  condições adequadas, além de otimizar os recursos e minimizar os custos.
+A área de logística tem a função de gerenciar o fluxo de produtos e informações desde o ponto de origem até o destino final, de forma eficiente e econômica. Isso inclui a coordenação de várias atividades, como o transporte, armazenamento, distribuição, embalagem, gerenciamento de estoque e o gerenciamento da cadeia de suprimentos. 
+
+A logística é fundamental para a operação bem-sucedida de muitas empresas, pois pode afetar diretamente a satisfação do cliente, a produtividade, a eficiência operacional e os custos. Ao gerenciar a cadeia de suprimentos de forma eficaz, a área de logística pode garantir que as mercadorias estejam disponíveis no momento certo, no lugar certo e nas  condições adequadas, além de otimizar os recursos e minimizar os custos.
 
 Além disso, a área de logística pode ajudar a empresa a identificar oportunidades para melhorar sua operação, 
 reduzir desperdícios, aumentar a eficiência e reduzir o tempo de ciclo do pedido (do pedido até a entrega ao cliente ou 
 destino). Com a crescente complexidade dos negócios e a globalização da economia, a importância da logística tem aumentado 
 significativamente, tornando-se um fator crítico de sucesso para muitas empresas.
 
-Um exemplo de como a área de logística
-pode ser fundamental para a operação bem-sucedida de uma empresa é o caso de uma loja virtual de roupas que vende 
-para clientes em todo o país. Para garantir que seus clientes recebam seus pedidos no prazo e em perfeitas condições, 
-a empresa precisa gerenciar efetivamente o transporte, armazenamento e distribuição de seus produtos. 
-Isso inclui a coordenação com fornecedores, gerenciamento de estoque, embalagem, escolha de transportadoras, 
-rastreamento de pedidos e gerenciamento de devoluções.Se a empresa não gerenciar essas atividades de forma eficaz, 
-pode haver atrasos na entrega,  produtos danificados,  aumento  dos  custos  de  transporte  e  armazenamento  e 
-insatisfação do cliente. Além disso, a empresa pode enfrentar problemas de estoque excessivo ou insuficiente, 
-o que pode levar a perdas financeiras.
+Um exemplo de como a área de logística pode ser fundamental para a operação bem-sucedida de uma empresa é o caso de uma loja virtual de roupas que vende para clientes em todo o país. Para garantir que seus clientes recebam seus pedidos no prazo e em perfeitas condições, 
+a empresa precisa gerenciar efetivamente o transporte, armazenamento e distribuição de seus produtos. Isso inclui a coordenação com fornecedores, gerenciamento de estoque, embalagem, escolha de transportadoras, rastreamento de pedidos e gerenciamento de devoluções.Se a empresa não gerenciar essas atividades de forma eficaz, pode haver atrasos na entrega,  produtos danificados,  aumento  dos  custos  de  transporte  e  armazenamento  e 
+insatisfação do cliente. Além disso, a empresa pode enfrentar problemas de estoque excessivo ou insuficiente, o que pode levar a perdas financeiras.
 
-Por outro lado, se a área de logística da empresa gerenciar essas atividades de forma eficaz, poderá garantir que os 
-produtos sejam entregues no prazo, em perfeitas condições e a um custo razoável. Isso pode levar a uma melhor satisfação 
-do cliente, redução de custos e aumento da receita.
+Por outro lado, se a área de logística da empresa gerenciar essas atividades de forma eficaz, poderá garantir que os produtos sejam entregues no prazo, em perfeitas condições e a um custo razoável. Isso pode levar a uma melhor satisfação do cliente, redução de custos e aumento da receita.
 
-Existem vários indicadores-chave de desempenho (KPIs) que podem ser usados para medir a eficácia e a eficiência da área de 
-logística de uma empresa. Alguns dos principais KPIs incluem:
+Existem vários indicadores-chave de desempenho (KPIs) que podem ser usados para medir a eficácia e a eficiência da área de logística de uma empresa. Alguns dos principais KPIs incluem:
 
-1. *Tempo de ciclo*: o tempo necessário para atender um pedido, desde o momento em que é feito até o momento em que é 
-entregue ao cliente.
+1. *Tempo de ciclo*: o tempo necessário para atender um pedido, desde o momento em que é feito até o momento em que é entregue ao cliente.
 
 2. *Taxa  de  entrega  no  prazo*:  a  porcentagem  de  pedidos  entregues  dentro  do  prazo acordado.
 
@@ -288,8 +274,9 @@ incluindo tempo de entrega, qualidade do produto eatendimento ao cliente.
 
 9. *Taxa de ocorrência de avarias*: a porcentagem de produtos que sofrem danos durante o transporte ou armazenamento.
 
-10. *Índice  de  retorno  sobre  investimento  (ROI)*:  o  retorno  financeiro  gerado  pelos investimentos  em  logística,  
-como  sistemas  de  gerenciamento  de  armazéns  ou  software  de rastreamento de pedidos.
+10. *Índice  de  retorno  sobre  investimento  (ROI)*:  o  retorno  financeiro  gerado  pelos investimentos  em  logística, como  sistemas  de  gerenciamento  de  armazéns  ou  software  de rastreamento de pedidos.
+
+</details>
 
 ## Construção do Projeto
 
@@ -381,7 +368,10 @@ Todas as modificações e reparos resultam no dashboard final abaixo. Apesar do 
 
 <h1 align="center">Projeto 5: Análise de Dados Financeiros</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/de8f793e-eddc-4b3e-a7af-5bb9131ae14a/bf62a8175457214dd910?experience=power-bi)
+
+<details>
+<summary>Contexto</summary>
 
 Algumas das principais funções da área de finanças de uma empresa incluem:
 
@@ -391,8 +381,7 @@ Algumas das principais funções da área de finanças de uma empresa incluem:
 4. Tomada de decisões financeiras: a área de finanças deve fornecer informações e análises financeiras  para  ajudar  a  empresa  a tomar  decisões  importantes,  como  investir  em  novos projetos, fazer aquisições ou buscar financiamento externo.
 5. Relacionamento  com  investidores:  a  área  de  finanças  também  é  responsável  por gerenciar o relacionamento com os investidores, divulgando informações financeiras e ajudando a construir a confiança do mercado na empresa.
 
-Neste contexto, KPIs (Indicadores-Chave de Performance) são métricas importantes que a área de finanças pode usar para monitorar o desempenho financeiro de uma empresa. A seguir estão alguns dos principais KPIs 
-da área de finanças:
+Neste contexto, KPIs (Indicadores-Chave de Performance) são métricas importantes que a área de finanças pode usar para monitorar o desempenho financeiro de uma empresa. A seguir estão alguns dos principais KPIs da área de finanças:
 
 1. Fluxo de caixa: é uma medida do dinheiro que entra e sai da empresa em um determinado período de tempo. O fluxo de caixa positivo é um sinal de que a empresa está gerando receita suficiente para cobrir suas despesas.
 2. Margem de lucro: é a porcentagem de lucro que a empresa ganha em cada venda. Ela pode ser calculada dividindo o lucro líquido pela receita total.
@@ -403,6 +392,8 @@ da área de finanças:
 7. Prazo médio de pagamento (PMP): é o tempo médio que a empresa leva para pagar seus fornecedores. Ele pode ser calculado dividindo o valor total das compras pelo valor total pago a fornecedores em um determinado período de tempo.
 
 Estes são apenas alguns dos KPIs mais comuns da área de finanças, mas existem muitos outros que podem ser relevantes dependendodas necessidades e objetivos específicos de cada empresa.
+
+</details>
 
 ---
 
@@ -443,9 +434,7 @@ MargemLucro = DIVIDE([Lucro], [TotalReceitas], 0)
 
  O exercício pede, além da visualização do total de receitas/despesas por componente, a exibição explícita da hierarquia formada pelas variáveis qualitativas Tipo e Componente, bem como a distinção por ano (hierarquia da variável calendário "Data"). Utiliza-se uma combinação, portanto, de gráfico de barra, gráfico de área, e uma matriz (particularmente útil na discrição de hierarquias).
  
- Resta examinar quais são os principais segmentos onde Receitas e Despesas são maiores e menores para que a empresa possa traçar seu plano estratégico. Este tipo de análise poderia - caso houvesse um grande
- volume de dados disponível - ser beneficiada por um mecanismo de clusterização com aprendizado de máquina. O PowerBI, contudo, oferece a ferramenta de "Principais Influenciadores", a qual realiza uma análise
- semelhante (porém definitivamente menos rebuscada) por debaixo do capô. É incluída nesta visualização o descritor "Principais Segmentos", o qual responde a pergunta postulada pela empresa. Este recurso, IMHO, é a verdadeira _pièce de résistance_ dentre as visualizações do PowerBI: ele une a narrativa inteligente à análise de determinada variável quantitativa, explicada por uma ou mais variáveis categóricas, utilizando demais artifícios como gráficos de rosca e/ou barras internamente. Veja abaixo:
+ Resta examinar quais são os principais segmentos onde Receitas e Despesas são maiores e menores para que a empresa possa traçar seu plano estratégico. Este tipo de análise poderia - caso houvesse um grande volume de dados disponível - ser beneficiada por um mecanismo de clusterização com aprendizado de máquina. O PowerBI, contudo, oferece a ferramenta de "Principais Influenciadores", a qual realiza uma análise semelhante (porém definitivamente menos rebuscada) por debaixo do capô. É incluída nesta visualização o descritor "Principais Segmentos", o qual responde a pergunta postulada pela empresa. Este recurso, IMHO, é a verdadeira _pièce de résistance_ dentre as visualizações do PowerBI: ele une a narrativa inteligente à análise de determinada variável quantitativa, explicada por uma ou mais variáveis categóricas, utilizando demais artifícios como gráficos de rosca e/ou barras internamente. Veja abaixo:
 
 <div align="center">
   <img src="projeto5_financas/media/segmentos.gif" alt="segmentos">
@@ -453,8 +442,7 @@ MargemLucro = DIVIDE([Lucro], [TotalReceitas], 0)
 
 ---
 
-O dashboard final é exibido abaixo, reunindo os diversos KPI's construídos com as expressões DAX, os gráficos estáticos, a matriz com hierarquias e o visualizador de Principais Segmentos, o qual ganha um destaque
-maior graças a sua versatilidade.
+O dashboard final é exibido abaixo, reunindo os diversos KPI's construídos com as expressões DAX, os gráficos estáticos, a matriz com hierarquias e o visualizador de Principais Segmentos, o qual ganha um destaque maior graças a sua versatilidade.
 
 <div align="center">
   <img src="projeto5_financas/media/final.gif" alt="segmentos">
@@ -466,7 +454,10 @@ maior graças a sua versatilidade.
 
 <h1 align="center">Projeto 6: Análise de Dados de Contabilidade</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/7f4f604c-6725-41da-80df-4fd44603de94/ReportSection?experience=power-bi)
+
+<details>
+<summary>Contexto</summary>
 
 As Ciências Contábeis são um campo de estudo que envolve o registro, classificação e análise de transações financeiras de uma empresa ou organização. Essas transações incluem compras, vendas, pagamentos, recebimentos, investimentos, entre outros. Os  profissionais  de  contabilidade  utilizam  técnicas  e  ferramentas  específicas  para registrar  e  organizar informações  financeiras,  como  balanços,  demonstrativos  de  resultados, fluxo de caixa e relatórios contábeis. Essas informações são usadas para ajudar os gestores a tomar decisões financeiras importantes e também para cumprir obrigações legais e fiscais.
 
@@ -475,8 +466,7 @@ As Ciências Contábeis são essenciais para qualquer empresa ou organização q
 Existem vários relatórios importantes em Ciências Contábeis que fornecem informações financeiras vitais para as empresas e 
 outras organizações. Destacam-se:
 
-1. Balanço Patrimonial (BP): o foco deste projeto. É um relatório que apresenta a posição financeira da empresa em um determinado momento. 
-Ele mostra os ativos (bens e direitos) e passivos (obrigações) da empresa, bem como o patrimônio líquido;
+1. Balanço Patrimonial (BP): o foco deste projeto. É um relatório que apresenta a posição financeira da empresa em um determinado momento. Ele mostra os ativos (bens e direitos) e passivos (obrigações) da empresa, bem como o patrimônio líquido;
 
 2. Demonstração de Resultadodo Exercício (DRE): É um relatório que apresenta o resultado das  operações  da  empresa  durante um  período  de  tempo.  Ele  mostra  as  receitas,  despesas  e lucro líquido (ou prejuízo) da empresa;
 
@@ -500,6 +490,8 @@ Esta ferramenta é importante para a gestão financeira de uma empresa, portanto
 
 O Microsoft Excel, apesar de ainda ser a ferramenta usual na área de ciências contábeis, possui uma série de limitações referentes
 à manipulação e principalmente visualização dos dados. O Power BI é melhor equipado para lidar com estes tipos de dados, como será exemplificado abaixo.
+
+</details>
 
 ## Construção
 
@@ -531,17 +523,20 @@ A navegação pela matriz é realizada pelos comandos no canto superior direito:
 ---
 ---
 
-<h1 align="center">Projeto 6: Análise de Dados do Mercado de Ações</h1>
+<h1 align="center">Projeto 7: Análise de Dados do Mercado de Ações</h1>
 
-## Contexto
+🔹Interaja com o [Dashboard online aqui](https://app.powerbi.com/groups/me/reports/159e11f5-99a8-4d1f-a641-1033d3b889ef/d997a3096323c5660f8d?experience=power-bi)
+
+<details>
+<summary>Contexto</summary>
 
 O  mercado  de  ações  é  um  sistema  no  qual  as  empresas  vendem  frações  de  sua propriedade  (chamadas  ações)  para investidores,  que  por  sua  vez  se  tornam  proprietários parciais da empresa. Quando as empresas têm lucro,  os acionistas também recebem uma parte desses lucros na forma de dividendos. Além disso, o valor das ações pode subir ou  descer com base em vários fatores, como desempenho financeiro da empresa, mudanças na economia ou na indústria em que a  empresa opera, be  como decisões políticas e regulatórias. 
  
-Os investidores compram e vendem ações no mercado de ações, geralmente usando uma corretora ou plataforma de negociação on-line para fazer as transações. O mercado de ações é frequentemente  visto  como  um  indicador  da  saúde  econômica geral  de  um  país,  e  é frequentemente  usado  como  uma  forma  de  investimento  para  indivíduos  e  instituições financeiras em todo o mundo.
+Os investidores compram e vendem ações no mercado de ações, geralmente usando uma corretora ou plataforma de negociação on-line para fazer as transações. O mercado de ações é frequentemente  visto  como  um  indicador  da  saúde  econômica geral  de  um  país,  e  é utilizado  como  uma  forma  de  investimento  para  indivíduos  e  instituições financeiras em todo o mundo.
 
 Neste projeto trabalhamos  com  dados  reais  extraídos  do  portal  da  Nasdaq. A NASDAQ  (National  Association  of Securities  Dealers  Automated  Quotations)  é  uma  bolsa  de valores eletrônica americana, fundada em 1971. É a segunda maior bolsa de valores do mundo em termos de capitalização de mercado, atrás apenas da Bolsa de Valores de Nova York (NYSE). A NASDAQ é conhecida por ser a bolsa de valores onde são negociadas principalmente as ações de empresas de tecnologia e inovação, como Apple, Microsoft, Amazon, IBM, Facebook e Alphabet (a holding da Google). Além disso, a NASDAQ também negocia ações de empresas de diversos outros setores, como saúde, finanças, energia, entre outros.
 
-A  NASDAQ  é  uma  bolsa  de valores  eletrônica,  o  que  significa  que  as  negociaçõessão realizadas  através  de sistemas  de  computador  e  redes  de  telecomunicações. Ela é pioneira no uso de tecnologia para a realização de negociações, como por exemplo, a utilização de telas de computador para exibir cotações em tempo real e a implementação do sistema de negociação eletrônico. Além disso, a NASDAQ também oferece serviços de listagem de empresas e serviços de compensação e liquidação de negociações realizadas em sua bolsa. É amplamente seguida pelos investidores e analistas financeiros devido à sua grande base de empresas tecnológicas e inovadoras.
+A  NASDAQ  é  uma  bolsa  de valores  eletrônica,  o  que  significa  que  as  negociações são realizadas  através  de sistemas  de  computador  e  redes  de  telecomunicações. Ela é pioneira no uso de tecnologia para a realização de negociações, como por exemplo, a utilização de telas de computador para exibir cotações em tempo real e a implementação do sistema de negociação eletrônico. Além disso, a NASDAQ também oferece serviços de listagem de empresas e serviços de compensação e liquidação de negociações realizadas em sua bolsa. É amplamente seguida pelos investidores e analistas financeiros devido à sua grande base de empresas tecnológicas e inovadoras.
 
 Os dados aqui utilizados podem ser extraídos gratuitamente da Nasdaq acessando o link https://www.nasdaq.com/market-activity/stocks
 
@@ -561,6 +556,8 @@ abertura é o primeiro preço pelo qual a ação foi negociada naquele dia; e
 5. "High" (Preço Máximo) e "Low" (Preço Mínimo): indicam o preço máximo e mínimo que a ação foi negociada naquele dia. 
 O preço máximo é o preço mais alto pelo qual a ação foi negociada durante o dia, enquanto o preço mínimo é o preço mais 
 baixo pelo qual a ação foi negociada.
+
+</details>
 
 ## Objetivos
 
@@ -651,8 +648,7 @@ A interatividade é particularmente útil no caso da análise da variação da m
 
 2 segmentadores são extremamente úteis aqui: um para filtrar os papéis (_tickers_) e outro para delimitar a data. Uma vez que a série temporal inicia em Agosto de 2021 e termina em Novembro de 2024, a análise de variação mensal (por exemplo) exibirá discrepâncias para os primeiros e últimos meses do ano. Podemos optar, por exemplo, por averiguar a série "completa" de Jan/2022 a Jan/2024 no caso específico desta análise.
 
-A narrativa inteligente, embora inclusa aqui para fins didáticos, sofre um pouco devido à complexidade da sintaxe da língua portuguesa.
-Existe, porém, a possibilidade de integração com o _Copilot_ para a manutenção desta ferramenta, sobrescrevendo a funcionalidade nativa. Estes recursos deverão ser continuamente aprimorados no futuro recente com o desenvolvimento de LLM's mais poderosos.
+A narrativa inteligente, embora inclusa aqui para fins didáticos, sofre um pouco devido à complexidade da sintaxe da língua portuguesa. Existe, porém, a possibilidade de integração com o _Copilot_ para a manutenção desta ferramenta, sobrescrevendo a funcionalidade nativa. Estes recursos deverão ser continuamente aprimorados no futuro recente com o desenvolvimento de LLM's mais poderosos.
 
 O resultado final é exibido abaixo:
 
@@ -663,7 +659,6 @@ O resultado final é exibido abaixo:
 
 Para os papéis considerados, a linha de tendência do total de volume negociado denota a relativa estabilidade das ações de grandes empresas nacionais pós-pandemia e.g. Petrobras, Vale, Magazine Luiza. O segmentador anual demonstra que houve uma tendência ligeiramente positiva em 2022, seguida de uma ligeiramente negativa em 2023 e 2024. Filtrando apenas os papeis da petrobras (PETR4 e o_soft_ PETR3), fica explícita a altíssima correlação positiva entre os ativos no gráfico da variação média de fechamento, comoesperado. Outras correlações menos óbvias (mas ainda assim lógicas) também podem ser observadas, como o comportamento semelhante entreações da Vale e Petrobras, ambas fortemente influenciadas pelas tendências governamentais. Este comportamento já não é evidente entreestas empresas e a Magazine Luiza, cujos ativos são influenciados por outros fatores econômicos.
 
-Há uma variedade enorme de análises possíveis com dados OHLC no contexto do mercado financeiro. Por enquanto, o arroz com feijão pode
-ser sucitamente resumido neste dashboard de página única com algumas visualizações chave e uma rápida manipulação dos dados.
+Há uma variedade enorme de análises possíveis com dados OHLC no contexto do mercado financeiro. Por enquanto, o arroz com feijão pode ser sucitamente resumido neste dashboard de página única com algumas visualizações chave e uma rápida manipulação dos dados.
 
 ![Abhinandan Trilokia](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
